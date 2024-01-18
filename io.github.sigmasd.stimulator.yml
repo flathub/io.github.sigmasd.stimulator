@@ -83,11 +83,11 @@ modules:
 
       - install -Dm644 distro/io.github.sigmasd.stimulator.desktop -t /app/share/applications/
       - install -Dm644 distro/io.github.sigmasd.stimulator.svg -t /app/share/icons/hicolor/scalable/apps/
-      - install -Dm644 distro/io.github.sigmasd.stimulator_active.svg -t /app/share/icons/hicolor/scalable/apps/
+      - install -Dm644 distro/io.github.sigmasd.stimulator_inactive.svg -t /app/share/icons/hicolor/scalable/apps/
       - install -Dm644 distro/io.github.sigmasd.stimulator.metainfo.xml -t /app/share/metainfo/
 
     sources:
       - type: archive
-        url: https://github.com/sigmaSd/stimulator/archive/refs/tags/0.7.6.tar.gz
-        sha256: a425f5fc6644873f340ceb7a2c9251bae9f501eb2e33a30676b3f5f8abcab8c3
+        url: https://github.com/sigmaSd/stimulator/archive/refs/tags/0.8.0.tar.gz
+        sha256: d250841dfada070807b78509e4fcf8a752dded1571dc46b60417e7e7ec421e3e
 
