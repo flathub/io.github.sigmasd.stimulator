@@ -78,10 +78,7 @@ modules:
       - cp deno.json /app/bin/runtime/deno.json
       - cp -r vendor /app/bin/runtime/vendor
 
-      - echo "DENO_PYTHON_PATH=/usr/lib/$(uname -m)-linux-gnu/libpython3.11.so.1.0
-        /app/bin/deno run --allow-read=/app/bin/runtime/src/locales --allow-env=DENO_PYTHON_PATH
-        --allow-ffi --unstable-ffi /app/bin/runtime/src/main.ts" >/app/bin/stimulator
-      - chmod +x /app/bin/stimulator
+      - mv stimulator /app/bin/stimulator
 
       - install -Dm644 distro/io.github.sigmasd.stimulator.desktop -t /app/share/applications/
       - install -Dm644 distro/io.github.sigmasd.stimulator.svg -t /app/share/icons/hicolor/scalable/apps/
@@ -89,7 +86,12 @@ modules:
       - install -Dm644 distro/io.github.sigmasd.stimulator.metainfo.xml -t /app/share/metainfo/
 
     sources:
+      - type: script
+        dest-filename: stimulator
+        commands:
+          - DENO_PYTHON_PATH=/usr/lib/$(uname -m)-linux-gnu/libpython3.11.so.1.0 /app/bin/deno run --allow-read=/app/bin/runtime/src/locales --allow-env=DENO_PYTHON_PATH --allow-ffi --unstable-ffi /app/bin/runtime/src/main.ts
+
       - type: archive
-        url: https://github.com/sigmaSd/stimulator/archive/refs/tags/0.8.0.tar.gz
-        sha256: d250841dfada070807b78509e4fcf8a752dded1571dc46b60417e7e7ec421e3e
+        url: https://github.com/sigmaSd/stimulator/archive/refs/tags/0.8.1.tar.gz
+        sha256: 1ad383ec64be194d8a598bc8142366086c0b1f4478c3e189762ebdeaf93586c4
 
