@@ -92,6 +92,6 @@ modules:
           - DENO_PYTHON_PATH=/usr/lib/$(uname -m)-linux-gnu/libpython3.11.so.1.0 /app/bin/deno run --allow-read=/app/bin/runtime/src/locales --allow-env=DENO_PYTHON_PATH --allow-ffi --unstable-ffi /app/bin/runtime/src/main.ts
 
       - type: archive
-        url: https://github.com/sigmaSd/stimulator/archive/refs/tags/0.8.1.tar.gz
-        sha256: 1ad383ec64be194d8a598bc8142366086c0b1f4478c3e189762ebdeaf93586c4
+        url: https://github.com/sigmaSd/stimulator/archive/refs/tags/0.9.0.tar.gz
+        sha256: e6fbbe320a4b632b2c0ad69340b64c30d62befb4e39ca9029cc7d5f52247e196
 
