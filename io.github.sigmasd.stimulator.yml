@@ -43,6 +43,13 @@ modules:
       - type: archive
         url: https://github.com/denoland/deno/releases/download/v1.40.2/deno-x86_64-unknown-linux-gnu.zip
         sha256: acaf4ed5568a9bd1b6f59f699218cd7d9844e777e570666d1ceb2740c1527ec3
+        only-arches:
+          - x86_64
+      - type: archive
+        url: https://github.com/denoland/deno/releases/download/v1.40.4/deno-aarch64-unknown-linux-gnu.zip
+        sha256: 251ef2b8f230b87ea1e121e7b835c6a2b77435e6063b6e939dc535f5c8dbd95e
+        only-arches:
+          - aarch64
 
       - type: archive
         url: https://github.com/sigmaSd/stimulator/archive/refs/tags/1.0.tar.gz
