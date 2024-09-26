@@ -52,8 +52,8 @@ modules:
           - aarch64
 
       - type: archive
-        url: https://github.com/sigmaSd/stimulator/archive/refs/tags/1.7.tar.gz
-        sha256: 1ae01776cbb2d7799898d3c1d507cb06ac05c6c3e2b409cd55605f397f78b711
+        url: https://github.com/sigmaSd/stimulator/archive/refs/tags/1.8.tar.gz
+        sha256: 44cd7c80e8a2c5b36b0612e3a389d67852e1e6fe2b68b5e600cf513d6ab9e34e
 
       - type: script
         dest-filename: stimulator
