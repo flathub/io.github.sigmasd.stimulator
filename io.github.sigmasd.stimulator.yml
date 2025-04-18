@@ -1,7 +1,7 @@
 app-id: io.github.sigmasd.stimulator
 
 runtime: org.gnome.Platform
-runtime-version: '46'
+runtime-version: "46"
 sdk: org.gnome.Sdk
 
 command: stimulator
@@ -17,7 +17,6 @@ finish-args:
   - --talk-name=org.kde.StatusNotifierWatcher
   # disable screensaver
   - --talk-name=org.freedesktop.ScreenSaver
-
 
 modules:
   - shared-modules/libappindicator/libappindicator-gtk3-introspection-12.10.json
@@ -40,23 +39,24 @@ modules:
       - install -Dm644 distro/io.github.sigmasd.stimulator.metainfo.xml -t /app/share/metainfo/
 
     sources:
+      # deno
       - type: archive
-        url: https://github.com/denoland/deno/releases/download/v1.40.2/deno-x86_64-unknown-linux-gnu.zip
-        sha256: acaf4ed5568a9bd1b6f59f699218cd7d9844e777e570666d1ceb2740c1527ec3
+        url: https://github.com/denoland/deno/releases/download/v2.1.7/deno-x86_64-unknown-linux-gnu.zip
+        sha256: 8ea47ace85a2daadb60165d2aa519e11aef023d74441a24c4dc1d106dffdd19b
         only-arches:
           - x86_64
       - type: archive
-        url: https://github.com/denoland/deno/releases/download/v1.40.4/deno-aarch64-unknown-linux-gnu.zip
-        sha256: 251ef2b8f230b87ea1e121e7b835c6a2b77435e6063b6e939dc535f5c8dbd95e
+        url: https://github.com/denoland/deno/releases/download/v2.1.7/deno-aarch64-unknown-linux-gnu.zip
+        sha256: fb37f230b55898660807247ea28a37afead40bc3713e2ee022a5c1e9476ac9aa
         only-arches:
           - aarch64
 
+      # stimulator
       - type: archive
-        url: https://github.com/sigmaSd/stimulator/archive/refs/tags/1.8.1.tar.gz
-        sha256: 940569430abd2307c452f9c3616dd5ca2297b16c1cc32d0fb2a2b7abba00e944
+        url: https://github.com/sigmaSd/stimulator/archive/refs/tags/1.9.2.tar.gz
+        sha256: 7915d3437460be1da1309fb7c424dae875ba91723f6859f1ce1a389f2c8329e5
 
       - type: script
         dest-filename: stimulator
         commands:
-          - DENO_PYTHON_PATH=/usr/lib/$(uname -m)-linux-gnu/libpython3.11.so.1.0 /app/bin/deno run --allow-read=/app/bin/runtime/src/locales --allow-env=DENO_PYTHON_PATH --allow-ffi --unstable-ffi /app/bin/runtime/src/main.ts
-
+          - DENO_PYTHON_PATH=/usr/lib/$(uname -m)-linux-gnu/libpython3.11.so.1.0 /app/bin/deno run --no-lock --allow-read=/app/bin/runtime/src/locales --allow-env=DENO_PYTHON_PATH --allow-ffi /app/bin/runtime/src/main.ts
