@@ -27,7 +27,10 @@ modules:
       - mkdir -p /app/bin/runtime
       - cp deno /app/bin/deno
       - cp -r src /app/bin/runtime/src
+      - |
+        sed -i 's/"vendor": false/"vendor": true/' deno.jsonc
       - cp deno.jsonc /app/bin/runtime/deno.jsonc
+      - cp deno.lock /app/bin/runtime/deno.lock
       - cp -r vendor /app/bin/runtime/vendor
 
       - mv stimulator /app/bin/stimulator
@@ -41,22 +44,24 @@ modules:
     sources:
       # deno
       - type: archive
-        url: https://github.com/denoland/deno/releases/download/v2.1.7/deno-x86_64-unknown-linux-gnu.zip
-        sha256: 8ea47ace85a2daadb60165d2aa519e11aef023d74441a24c4dc1d106dffdd19b
+        url: https://github.com/denoland/deno/releases/download/v2.3.1/deno-x86_64-unknown-linux-gnu.zip
+        sha256: b2920265e633215959b09a32b67f46c93362842bbfd27c96e8acc2d24b66f563
         only-arches:
           - x86_64
       - type: archive
-        url: https://github.com/denoland/deno/releases/download/v2.1.7/deno-aarch64-unknown-linux-gnu.zip
-        sha256: fb37f230b55898660807247ea28a37afead40bc3713e2ee022a5c1e9476ac9aa
+        url: https://github.com/denoland/deno/releases/download/v2.3.1/deno-aarch64-unknown-linux-gnu.zip
+        sha256: 3771ede34037694591846166f6211e7a8ab5cd77a1e7143e637d4457e8708dc7
         only-arches:
           - aarch64
 
       # stimulator
       - type: archive
-        url: https://github.com/sigmaSd/stimulator/archive/refs/tags/1.9.2.tar.gz
-        sha256: 7915d3437460be1da1309fb7c424dae875ba91723f6859f1ce1a389f2c8329e5
+        url: https://github.com/sigmaSd/stimulator/archive/refs/tags/1.9.3.tar.gz
+        sha256: f4e1fe594a3d20a17981c175f0923dc2aefac73a373ee264b0d4c73e28cd81e0
 
       - type: script
         dest-filename: stimulator
         commands:
-          - DENO_PYTHON_PATH=/usr/lib/$(uname -m)-linux-gnu/libpython3.12.so.1.0 /app/bin/deno run --no-lock --allow-read=/app/bin/runtime/src/locales --allow-env=DENO_PYTHON_PATH --allow-ffi /app/bin/runtime/src/main.ts
+          - DENO_PYTHON_PATH=/usr/lib/$(uname -m)-linux-gnu/libpython3.12.so.1.0 /app/bin/deno run --cached-only --allow-all /app/bin/runtime/src/main.ts
+
+      - deno-sources.json
