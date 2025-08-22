@@ -1,8 +1,7 @@
 [
   {
-    "type": "file",
-    "url": "https://jsr.io/@denosaurs/python/meta.json",
-    "sha256": "f40ddbefe21cfb35591c49740abd082d28d5171492d8d5ea22ca49e301790252",
+    "type": "inline",
+    "contents": "{\"scope\":\"denosaurs\",\"name\":\"python\",\"latest\":\"0.4.5\",\"versions\":{}}",
     "dest": "vendor/jsr.io/@denosaurs/python",
     "dest-filename": "meta.json"
   },
@@ -63,9 +62,8 @@
     "dest-filename": "deno.json"
   },
   {
-    "type": "file",
-    "url": "https://jsr.io/@sigma/gtk-py/meta.json",
-    "sha256": "22b7d14c0d314729d837912552267b356b0d99cda0dcc347b8321ed8e42fd566",
+    "type": "inline",
+    "contents": "{\"scope\":\"sigma\",\"name\":\"gtk-py\",\"latest\":\"0.6.3\",\"versions\":{}}",
     "dest": "vendor/jsr.io/@sigma/gtk-py",
     "dest-filename": "meta.json"
   },
