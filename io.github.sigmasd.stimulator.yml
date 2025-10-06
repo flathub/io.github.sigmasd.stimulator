@@ -44,24 +44,24 @@ modules:
     sources:
       # deno
       - type: archive
-        url: https://github.com/denoland/deno/releases/download/v2.3.1/deno-x86_64-unknown-linux-gnu.zip
-        sha256: b2920265e633215959b09a32b67f46c93362842bbfd27c96e8acc2d24b66f563
+        url: https://github.com/denoland/deno/releases/download/v2.5.3/deno-x86_64-unknown-linux-gnu.zip
+        sha256: 421add1fbc9616bf0a6dee0e330804122043ab2bf8cd884fa9ab9afddf2aea67
         only-arches:
           - x86_64
       - type: archive
-        url: https://github.com/denoland/deno/releases/download/v2.3.1/deno-aarch64-unknown-linux-gnu.zip
-        sha256: 3771ede34037694591846166f6211e7a8ab5cd77a1e7143e637d4457e8708dc7
+        url: https://github.com/denoland/deno/releases/download/v2.5.3/deno-aarch64-unknown-linux-gnu.zip
+        sha256: 78ad2cba6baef94af3e9140e952377bbe286f191b071a0f634bf53c2f618b6f1
         only-arches:
           - aarch64
 
       # stimulator
       - type: archive
-        url: https://github.com/sigmaSd/stimulator/archive/refs/tags/1.9.6.tar.gz
-        sha256: 52be7b7823bd05d940cd7345e69132a890ffed72d031f712a524f03156329cef
+        url: https://github.com/sigmaSd/stimulator/archive/refs/tags/1.10.0.tar.gz
+        sha256: 6388831d5ae26a35f73af8140d17a29c084d2391e612798bf0d9eaf24565efdd
 
       - type: script
         dest-filename: stimulator
         commands:
-          - DENO_PYTHON_PATH=/usr/lib/$(uname -m)-linux-gnu/libpython3.12.so.1.0 /app/bin/deno run --cached-only --allow-all /app/bin/runtime/src/main.ts
+          - DENO_PYTHON_PATH=/usr/lib/$(uname -m)-linux-gnu/libpython3.12.so.1.0 /app/bin/deno run --cached-only --allow-all --unstable-raw-imports /app/bin/runtime/src/main.ts
 
       - deno-sources.json
