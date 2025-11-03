@@ -36,7 +36,7 @@ modules:
       - mv stimulator /app/bin/stimulator
 
       # check that it builds
-      - cd /app/bin/runtime && /app/bin/deno compile --output debug --cached-only --unstable-raw-imports
+      - cd /app/bin/runtime && /app/bin/deno compile --output debug --cached-only --unstable-raw-imports src/main.ts
       - rm /app/bin/runtime/debug
 
       - install -Dm644 distro/io.github.sigmasd.stimulator.desktop -t /app/share/applications/
