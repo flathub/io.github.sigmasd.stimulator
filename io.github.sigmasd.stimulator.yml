@@ -59,7 +59,7 @@ modules:
 
       # stimulator
       - type: archive
-        url: https://github.com/sigmaSd/stimulator/archive/refs/tags/1.13.2.tar.gz
+        url: https://github.com/sigmaSd/stimulator/archive/refs/tags/1.14.0.tar.gz
         sha256: 65c0a6f59320ef9b99c3fb3707b997de01ae934fa6fac28ba76c69402f1e52d0
 
       - type: script
