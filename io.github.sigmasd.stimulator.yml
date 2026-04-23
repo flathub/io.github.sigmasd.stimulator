@@ -1,7 +1,7 @@
 app-id: io.github.sigmasd.stimulator
 
 runtime: org.gnome.Platform
-runtime-version: "48"
+runtime-version: "50"
 sdk: org.gnome.Sdk
 
 command: stimulator
@@ -65,6 +65,8 @@ modules:
       - type: script
         dest-filename: stimulator
         commands:
-          - DENO_PYTHON_PATH=/usr/lib/$(uname -m)-linux-gnu/libpython3.12.so.1.0 /app/bin/deno run --cached-only --allow-all --unstable-raw-imports /app/bin/runtime/src/main.ts
+          - |
+            PYTHON_SO=$(find /usr/lib/$(uname -m)-linux-gnu -name 'libpython3*.so.1*' | head -1)
+            DENO_PYTHON_PATH=$PYTHON_SO /app/bin/deno run --cached-only --allow-all --unstable-raw-imports /app/bin/runtime/src/main.ts
 
       - deno-sources.json
