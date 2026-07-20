@@ -1,7 +1,7 @@
 [
   {
     "type": "inline",
-    "contents": "{\"scope\":\"david\",\"name\":\"console-static-text\",\"latest\":\"0.3.0\",\"versions\":{}}",
+    "contents": "{\"scope\":\"david\",\"name\":\"console-static-text\",\"latest\":\"0.3.4\",\"versions\":{}}",
     "dest": "vendor/jsr.io/@david/console-static-text",
     "dest-filename": "meta.json"
   },
@@ -49,7 +49,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"scope\":\"david\",\"name\":\"dax\",\"latest\":\"0.44.1\",\"versions\":{}}",
+    "contents": "{\"scope\":\"david\",\"name\":\"dax\",\"latest\":\"0.49.0\",\"versions\":{}}",
     "dest": "vendor/jsr.io/@david/dax",
     "dest-filename": "meta.json"
   },
@@ -342,7 +342,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"scope\":\"david\",\"name\":\"path\",\"latest\":\"0.2.0\",\"versions\":{}}",
+    "contents": "{\"scope\":\"david\",\"name\":\"path\",\"latest\":\"0.3.3\",\"versions\":{}}",
     "dest": "vendor/jsr.io/@david/path",
     "dest-filename": "meta.json"
   },
@@ -369,7 +369,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"scope\":\"david\",\"name\":\"temp\",\"latest\":\"0.1.1\",\"versions\":{}}",
+    "contents": "{\"scope\":\"david\",\"name\":\"temp\",\"latest\":\"0.2.1\",\"versions\":{}}",
     "dest": "vendor/jsr.io/@david/temp",
     "dest-filename": "meta.json"
   },
@@ -396,7 +396,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"scope\":\"david\",\"name\":\"which\",\"latest\":\"0.4.1\",\"versions\":{}}",
+    "contents": "{\"scope\":\"david\",\"name\":\"which\",\"latest\":\"0.7.3\",\"versions\":{}}",
     "dest": "vendor/jsr.io/@david/which",
     "dest-filename": "meta.json"
   },
@@ -423,7 +423,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"scope\":\"libs\",\"name\":\"xml\",\"latest\":\"7.0.3\",\"versions\":{}}",
+    "contents": "{\"scope\":\"libs\",\"name\":\"xml\",\"latest\":\"8.0.0\",\"versions\":{}}",
     "dest": "vendor/jsr.io/@libs/xml",
     "dest-filename": "meta.json"
   },
@@ -478,168 +478,238 @@
   },
   {
     "type": "inline",
-    "contents": "{\"scope\":\"sigma\",\"name\":\"gtk-py\",\"latest\":\"0.11.0\",\"versions\":{}}",
-    "dest": "vendor/jsr.io/@sigma/gtk-py",
+    "contents": "{\"scope\":\"sigma\",\"name\":\"deno-compat\",\"latest\":\"0.23.0\",\"versions\":{}}",
+    "dest": "vendor/jsr.io/@sigma/deno-compat",
     "dest-filename": "meta.json"
   },
   {
     "type": "file",
-    "url": "https://jsr.io/@sigma/gtk-py/0.11.0_meta.json",
-    "sha256": "3ca26cd3b6bcd775644b66e8c7c9a65b2a94c4170800d85c2f01a8fae5459cf7",
-    "dest": "vendor/jsr.io/@sigma/gtk-py",
-    "dest-filename": "0.11.0_meta.json"
+    "url": "https://jsr.io/@sigma/deno-compat/0.23.0_meta.json",
+    "sha256": "3e116e19096601c3e078311864b653a207592195ae6a3f634a45931eb1a21481",
+    "dest": "vendor/jsr.io/@sigma/deno-compat",
+    "dest-filename": "0.23.0_meta.json"
   },
   {
     "type": "file",
-    "url": "https://jsr.io/@sigma/gtk-py/0.11.0/src/gtk3.ts",
-    "sha256": "0de1daaf3d2a785bc7f89a7525140f94f9aca349296a389ef055679261c6af31",
-    "dest": "vendor/jsr.io/@sigma/gtk-py/0.11.0/src",
-    "dest-filename": "gtk3.ts"
+    "url": "https://jsr.io/@sigma/deno-compat/0.23.0/src/deno-compat-node.ts",
+    "sha256": "f5ba14fc2e1f435ebbdecd17924747527171afaabd9dd78c3c5cb37cc3a12c50",
+    "dest": "vendor/jsr.io/@sigma/deno-compat/0.23.0/src",
+    "dest-filename": "deno-compat-node.ts"
   },
   {
     "type": "file",
-    "url": "https://jsr.io/@sigma/gtk-py/0.11.0/src/gdk4.ts",
-    "sha256": "4dc0f972cff47d90de7fa6306c664bd5b3fb254966610ec80ae06e45e261d962",
-    "dest": "vendor/jsr.io/@sigma/gtk-py/0.11.0/src",
-    "dest-filename": "gdk4.ts"
+    "url": "https://jsr.io/@sigma/deno-compat/0.23.0/src/deno-compat-bun.ts",
+    "sha256": "8556b3aad0f263a70f641648a66e24306f74c940d684ba6302c04620bb9b1fd3",
+    "dest": "vendor/jsr.io/@sigma/deno-compat/0.23.0/src",
+    "dest-filename": "deno-compat-bun.ts"
   },
   {
     "type": "file",
-    "url": "https://jsr.io/@sigma/gtk-py/0.11.0/src/appindicator3.ts",
-    "sha256": "123faa6890e2fb7a8ea875212677b253d22f5fab894843e0039b7e6c2f01142b",
-    "dest": "vendor/jsr.io/@sigma/gtk-py/0.11.0/src",
-    "dest-filename": "appindicator3.ts"
-  },
-  {
-    "type": "file",
-    "url": "https://jsr.io/@sigma/gtk-py/0.11.0/src/adw1.ts",
-    "sha256": "6fd9a699fa62300775277431f1696c7dbb8c228c777ea943839da554c33b6cc6",
-    "dest": "vendor/jsr.io/@sigma/gtk-py/0.11.0/src",
-    "dest-filename": "adw1.ts"
-  },
-  {
-    "type": "file",
-    "url": "https://jsr.io/@sigma/gtk-py/0.11.0/src/gobject2.ts",
-    "sha256": "2249190d64e39b6536a8be682d152b08dda8ed0db8dbdb4dabc033b6dd03af18",
-    "dest": "vendor/jsr.io/@sigma/gtk-py/0.11.0/src",
-    "dest-filename": "gobject2.ts"
-  },
-  {
-    "type": "file",
-    "url": "https://jsr.io/@sigma/gtk-py/0.11.0/src/gio2.ts",
-    "sha256": "81d20490dd4c9a54126f7eb681be0b8df8ec6afdea2c3769e0fa0486d98f35c9",
-    "dest": "vendor/jsr.io/@sigma/gtk-py/0.11.0/src",
-    "dest-filename": "gio2.ts"
-  },
-  {
-    "type": "file",
-    "url": "https://jsr.io/@sigma/gtk-py/0.11.0/mod.ts",
-    "sha256": "d2730fd6aba5c9804514c68e2ff4b751638a5d2004bc572b4c6761f322f0e6d0",
-    "dest": "vendor/jsr.io/@sigma/gtk-py/0.11.0",
+    "url": "https://jsr.io/@sigma/deno-compat/0.23.0/mod.ts",
+    "sha256": "327a737c0b296a3ad6185a8fdadddf302e80ecff8107be60f3dc923ecace899d",
+    "dest": "vendor/jsr.io/@sigma/deno-compat/0.23.0",
     "dest-filename": "mod.ts"
   },
   {
     "type": "file",
-    "url": "https://jsr.io/@sigma/gtk-py/0.11.0/src/internal_types.ts",
-    "sha256": "5065c11f34c530a5a89cf68ff29038f064d0e7bff3fcce4148741f0fa1622b40",
-    "dest": "vendor/jsr.io/@sigma/gtk-py/0.11.0/src",
-    "dest-filename": "internal_types.ts"
+    "url": "https://jsr.io/@sigma/deno-compat/0.23.0/src/runtime.ts",
+    "sha256": "2b2497362716b6b546207985db7e54f0288d1584cbfca771eae10e677d872b90",
+    "dest": "vendor/jsr.io/@sigma/deno-compat/0.23.0/src",
+    "dest-filename": "runtime.ts"
   },
   {
     "type": "file",
-    "url": "https://jsr.io/@sigma/gtk-py/0.11.0/src/glib2.ts",
-    "sha256": "4867572deb7692a337384bb93380881352c6b15e0f9a6218326880bcd2950f72",
-    "dest": "vendor/jsr.io/@sigma/gtk-py/0.11.0/src",
-    "dest-filename": "glib2.ts"
-  },
-  {
-    "type": "file",
-    "url": "https://jsr.io/@sigma/gtk-py/0.11.0/src/eventloop.ts",
-    "sha256": "9007ba5eaafe5c76a37edf8b41c1edaf6ef691ce8746f7107eb1f22e9fcb6b20",
-    "dest": "vendor/jsr.io/@sigma/gtk-py/0.11.0/src",
-    "dest-filename": "eventloop.ts"
-  },
-  {
-    "type": "file",
-    "url": "https://jsr.io/@sigma/gtk-py/0.11.0/src/gtk4.ts",
-    "sha256": "aff7179b9c20079b046cb6c1cd9395173ea0c6f41f4a2d5afb66202d157cf90b",
-    "dest": "vendor/jsr.io/@sigma/gtk-py/0.11.0/src",
-    "dest-filename": "gtk4.ts"
-  },
-  {
-    "type": "file",
-    "url": "https://jsr.io/@sigma/gtk-py/0.11.0/deno.json",
-    "sha256": "4f2e95553cd30be6fc1726561651b9b489f870fae3008026452f4d979f758269",
-    "dest": "vendor/jsr.io/@sigma/gtk-py/0.11.0",
+    "url": "https://jsr.io/@sigma/deno-compat/0.23.0/deno.json",
+    "sha256": "214c31b49aa526187e0686377895b45e46c41b25ede7edc546dc625aa47ef39d",
+    "dest": "vendor/jsr.io/@sigma/deno-compat/0.23.0",
     "dest-filename": "deno.json"
   },
   {
     "type": "inline",
-    "contents": "{\"scope\":\"sigma\",\"name\":\"python\",\"latest\":\"0.4.10\",\"versions\":{}}",
-    "dest": "vendor/jsr.io/@sigma/python",
+    "contents": "{\"scope\":\"sigmasd\",\"name\":\"gtk\",\"latest\":\"0.67.0\",\"versions\":{}}",
+    "dest": "vendor/jsr.io/@sigmasd/gtk",
     "dest-filename": "meta.json"
   },
   {
     "type": "file",
-    "url": "https://jsr.io/@sigma/python/0.4.10_meta.json",
-    "sha256": "654eaf8c7a41f20387c6dff8911808076193899c06bf5b77400dee24501aa8f0",
-    "dest": "vendor/jsr.io/@sigma/python",
-    "dest-filename": "0.4.10_meta.json"
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0_meta.json",
+    "sha256": "9c2c04b1cd3ec2915a83372d68887f965baa808285f8d685e2a0323d9a69d2c4",
+    "dest": "vendor/jsr.io/@sigmasd/gtk",
+    "dest-filename": "0.67.0_meta.json"
   },
   {
     "type": "file",
-    "url": "https://jsr.io/@sigma/python/0.4.10/mod.ts",
-    "sha256": "36292020f3a7e8c9774d5de7fe32e261b3b5ddfbb6689a78bb499014d40baa82",
-    "dest": "vendor/jsr.io/@sigma/python/0.4.10",
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/high/cairo.ts",
+    "sha256": "2e4161d6572e18274cc81fa3a3c90019a732473a8c13f9737864540a471df9c6",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/high",
+    "dest-filename": "cairo.ts"
+  },
+  {
+    "type": "file",
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/low/glib.ts",
+    "sha256": "c6502808ebd25c7c19d4cc27ada4cac91aea973aaa56a7ec40a1b26e16c22de7",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/low",
+    "dest-filename": "glib.ts"
+  },
+  {
+    "type": "file",
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/high/gtk4.ts",
+    "sha256": "6f6042e83fe4308e15556a559705aa1869f0d0ea4bbc64f991a19ee7fb6f1100",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/high",
+    "dest-filename": "gtk4.ts"
+  },
+  {
+    "type": "file",
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/high/gtk3.ts",
+    "sha256": "ec6e6991c1c96943ff01a97fb0a01b85e5b8e861c7e6d37da094c6e7c65c0c0c",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/high",
+    "dest-filename": "gtk3.ts"
+  },
+  {
+    "type": "file",
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/low/gtk4.ts",
+    "sha256": "d5ad078411cf6d64d13811ec0d7eef48aebffee6e043c7eaba024f0dfc1b7af1",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/low",
+    "dest-filename": "gtk4.ts"
+  },
+  {
+    "type": "file",
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/low/paths/platform/windows.ts",
+    "sha256": "e4590623e5bd38bf7dad106e69481fef55f3ab1c4f568fdb2f562f1b96788320",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/low/paths/platform",
+    "dest-filename": "windows.ts"
+  },
+  {
+    "type": "file",
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/high/adw.ts",
+    "sha256": "4b2b597eacd696cf4c98da18e0deb0e8e99e29c9d645ebed1b02f69e346cfb3d",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/high",
+    "dest-filename": "adw.ts"
+  },
+  {
+    "type": "file",
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/low/utils.ts",
+    "sha256": "c16042944d8c79ec82fe8afb98e71997fe7613c6ce525f02e1483d54135ad928",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/low",
+    "dest-filename": "utils.ts"
+  },
+  {
+    "type": "file",
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/low/paths/types.ts",
+    "sha256": "944c4cf6bf38f160ee02b9f7d30912a3124e69f3348179b9a2a12f756a1bfbab",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/low/paths",
+    "dest-filename": "types.ts"
+  },
+  {
+    "type": "file",
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/high/gobject.ts",
+    "sha256": "57a94fbe3e6db3f6e20f759863044d614842c1e5a060a0275a00e7c1ae838c66",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/high",
+    "dest-filename": "gobject.ts"
+  },
+  {
+    "type": "file",
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/low/gobject.ts",
+    "sha256": "fabe06e245c7c4c63633d89dfce93d4ca2f93a3c9638eb445692678590ad8517",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/low",
+    "dest-filename": "gobject.ts"
+  },
+  {
+    "type": "file",
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/low/paths/platform/unix.ts",
+    "sha256": "3e90d75adaa0746bc2158d91f09457b65efa6c9cd5e5527b2e00145623e378df",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/low/paths/platform",
+    "dest-filename": "unix.ts"
+  },
+  {
+    "type": "file",
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/low/paths/platform/darwin.ts",
+    "sha256": "43dcad75dd3338eedbd87db5303f3ba3ce66660613ee80030000c20e3221d697",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/low/paths/platform",
+    "dest-filename": "darwin.ts"
+  },
+  {
+    "type": "file",
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/low/adw.ts",
+    "sha256": "c64754dbb760564947faa5fe3684ae0fb29775af226cc88084319448d0ea33db",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/low",
+    "dest-filename": "adw.ts"
+  },
+  {
+    "type": "file",
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/low/gio.ts",
+    "sha256": "bc69baa09fcf23ec8e387d49ca545029f9840fbe3870b17f61b8732c5461c810",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/low",
+    "dest-filename": "gio.ts"
+  },
+  {
+    "type": "file",
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/high/glib.ts",
+    "sha256": "a226e6eb9378743974c484fa2cdbf496678e41c4d8c2dc89d97f3960bc43366e",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/high",
+    "dest-filename": "glib.ts"
+  },
+  {
+    "type": "file",
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/low/app_indicator.ts",
+    "sha256": "00deee5c5aac48d77ea0b9554c515495a634147ef7951a27ec79afa763d8bea8",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/low",
+    "dest-filename": "app_indicator.ts"
+  },
+  {
+    "type": "file",
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/high/app_indicator.ts",
+    "sha256": "324292bfcaf028bcbea564e5b428ff3bb7b2a3075d7967ef96eb26c9efedbb20",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/high",
+    "dest-filename": "app_indicator.ts"
+  },
+  {
+    "type": "file",
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/low/paths/mod.ts",
+    "sha256": "dca4aad36a92f5ae1859f05f395fe89ababcc95bddde79ba52ed38aef9592e82",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/low/paths",
     "dest-filename": "mod.ts"
   },
   {
     "type": "file",
-    "url": "https://jsr.io/@sigma/python/0.4.10/src/symbols.ts",
-    "sha256": "c710f541be44237161d445b2a7fa7d260be31e37fe255ef186fb93efaaaeae72",
-    "dest": "vendor/jsr.io/@sigma/python/0.4.10/src",
-    "dest-filename": "symbols.ts"
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/low/gtk3.ts",
+    "sha256": "5a949adc785ca1c6590859d5369ff9ede1bf8b435e861ffc8c53cd5d57e48ffa",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/low",
+    "dest-filename": "gtk3.ts"
   },
   {
     "type": "file",
-    "url": "https://jsr.io/@sigma/python/0.4.10/ext/pip.ts",
-    "sha256": "444ead8e7a0da40930536a963425ebd9f1cb24fff07478379c5cf0829bd84a1c",
-    "dest": "vendor/jsr.io/@sigma/python/0.4.10/ext",
-    "dest-filename": "pip.ts"
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/high/gio.ts",
+    "sha256": "11cd80aa316dd13bb22afb392a6d0191d7c782d320b04b6d562680981da0f2c1",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/high",
+    "dest-filename": "gio.ts"
   },
   {
     "type": "file",
-    "url": "https://jsr.io/@sigma/python/0.4.10/src/util.ts",
-    "sha256": "e30a5f33235f4ae31ed34cee6b6dd06e0fc9336da119096866a0b5cc707932ec",
-    "dest": "vendor/jsr.io/@sigma/python/0.4.10/src",
-    "dest-filename": "util.ts"
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/low/paths/findLib.ts",
+    "sha256": "bbe3a26b939e892ec592aa270ab72e876b66eff6acd699e66f0ad52de00269ce",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/low/paths",
+    "dest-filename": "#findlib_80c0d.ts"
   },
   {
     "type": "file",
-    "url": "https://jsr.io/@sigma/python/0.4.10/src/python.ts",
-    "sha256": "506fa4f8376f705eb2f518a67d45e4d5eb6103e2c40c006af982319734f36b55",
-    "dest": "vendor/jsr.io/@sigma/python/0.4.10/src",
-    "dest-filename": "python.ts"
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/low/cairo.ts",
+    "sha256": "1d3e190169f6c291e675321c43a8af7909d87c0ae14ccf1546bb8066b2278fec",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/low",
+    "dest-filename": "cairo.ts"
   },
   {
     "type": "file",
-    "url": "https://jsr.io/@sigma/python/0.4.10/src/ffi.ts",
-    "sha256": "e25488f2b451ae21d8e9b33db01eec4e5c9b0174987e373aa7f7a81d28b60d18",
-    "dest": "vendor/jsr.io/@sigma/python/0.4.10/src",
-    "dest-filename": "ffi.ts"
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/src/high/eventloop.ts",
+    "sha256": "2ccb604e130ccfcd2d8eceb16ed17029f71a39e87c5d54adae3e14c17b5773c0",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0/src/high",
+    "dest-filename": "eventloop.ts"
   },
   {
     "type": "file",
-    "url": "https://jsr.io/@sigma/python/0.4.10/deno.json",
-    "sha256": "289d40e85c5311fa809b59371772281b7d72e116378a61d8d0ca8ccc87926c41",
-    "dest": "vendor/jsr.io/@sigma/python/0.4.10",
-    "dest-filename": "deno.json"
-  },
-  {
-    "type": "file",
-    "url": "https://jsr.io/@sigma/python/0.4.10/test/deno.json",
-    "sha256": "5335690600914ad53e9b4873a8287e0baba01902ef94eec02d01b35ca6d7b3be",
-    "dest": "vendor/jsr.io/@sigma/python/0.4.10/test",
+    "url": "https://jsr.io/@sigmasd/gtk/0.67.0/deno.json",
+    "sha256": "5ae75e94b37db5649612c5364a7f1cec93bb3a116b0f77a9b989fbaea07a3f8a",
+    "dest": "vendor/jsr.io/@sigmasd/gtk/0.67.0",
     "dest-filename": "deno.json"
   },
   {
@@ -741,7 +811,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"scope\":\"std\",\"name\":\"fmt\",\"latest\":\"1.0.8\",\"versions\":{}}",
+    "contents": "{\"scope\":\"std\",\"name\":\"fmt\",\"latest\":\"1.0.10\",\"versions\":{}}",
     "dest": "vendor/jsr.io/@std/fmt",
     "dest-filename": "meta.json"
   },
@@ -789,7 +859,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"scope\":\"std\",\"name\":\"fs\",\"latest\":\"1.0.21\",\"versions\":{}}",
+    "contents": "{\"scope\":\"std\",\"name\":\"fs\",\"latest\":\"1.0.24\",\"versions\":{}}",
     "dest": "vendor/jsr.io/@std/fs",
     "dest-filename": "meta.json"
   },
@@ -1159,7 +1229,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"scope\":\"std\",\"name\":\"internal\",\"latest\":\"1.0.12\",\"versions\":{}}",
+    "contents": "{\"scope\":\"std\",\"name\":\"internal\",\"latest\":\"1.0.14\",\"versions\":{}}",
     "dest": "vendor/jsr.io/@std/internal",
     "dest-filename": "meta.json"
   },
@@ -1256,7 +1326,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"scope\":\"std\",\"name\":\"io\",\"latest\":\"0.225.2\",\"versions\":{}}",
+    "contents": "{\"scope\":\"std\",\"name\":\"io\",\"latest\":\"0.225.3\",\"versions\":{}}",
     "dest": "vendor/jsr.io/@std/io",
     "dest-filename": "meta.json"
   },
@@ -1360,7 +1430,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"scope\":\"std\",\"name\":\"path\",\"latest\":\"1.1.4\",\"versions\":{}}",
+    "contents": "{\"scope\":\"std\",\"name\":\"path\",\"latest\":\"1.1.6\",\"versions\":{}}",
     "dest": "vendor/jsr.io/@std/path",
     "dest-filename": "meta.json"
   },
@@ -1912,7 +1982,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"scope\":\"std\",\"name\":\"yaml\",\"latest\":\"1.0.10\",\"versions\":{}}",
+    "contents": "{\"scope\":\"std\",\"name\":\"yaml\",\"latest\":\"1.1.2\",\"versions\":{}}",
     "dest": "vendor/jsr.io/@std/yaml",
     "dest-filename": "meta.json"
   },
@@ -2127,7 +2197,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"name\":\"@istanbuljs/schema\",\"dist-tags\":{},\"versions\":{\"0.1.3\":{\"name\":\"@istanbuljs/schema\",\"version\":\"0.1.3\",\"description\":\"Schemas describing various structures used by nyc and istanbuljs\",\"main\":\"index.js\",\"scripts\":{\"release\":\"standard-version --sign\",\"pretest\":\"xo\",\"test\":\"tap\",\"snap\":\"npm test -- --snapshot\"},\"engines\":{\"node\":\">=8\"},\"author\":{\"name\":\"Corey Farrell\"},\"license\":\"MIT\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/istanbuljs/schema.git\"},\"bugs\":{\"url\":\"https://github.com/istanbuljs/schema/issues\"},\"homepage\":\"https://github.com/istanbuljs/schema#readme\",\"devDependencies\":{\"standard-version\":\"^7.0.0\",\"tap\":\"^14.6.7\",\"xo\":\"^0.25.3\"},\"gitHead\":\"d7da65adc197d15e06afb3761f560507ae048495\",\"_id\":\"@istanbuljs/schema@0.1.3\",\"_nodeVersion\":\"14.15.3\",\"_npmVersion\":\"6.14.9\",\"dist\":{\"integrity\":\"sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==\",\"shasum\":\"e45e384e4b8ec16bce2fd903af78450f6bf7ec98\",\"tarball\":\"https://registry.npmjs.org/@istanbuljs/schema/-/schema-0.1.3.tgz\",\"fileCount\":7,\"unpackedSize\":17161,\"npm-signature\":\"-----BEGIN PGP SIGNATURE-----\\r\\nVersion: OpenPGP.js v3.0.13\\r\\nComment: https://openpgpjs.org\\r\\n\\r\\nwsFcBAEBCAAQBQJgJ+Q3CRA9TVsSAnZWagAAlLYP/AhU51Ssv5Z69jdHWv6C\\nU1/pSw09DTVJksjvqvFib2g1IVBUdy042ZMUK41IglfvHJYyvwxRQz+nu8Na\\ns/Bon+xhZTTpl0ze3uDNBO1E9R2nnuo6jETiedyuKqbv+cJ3p5hxqPnDsIA6\\nbY3sLuFFIu5NjM2rn05HX/HQyfh+zKqpEUfvvV7k3tMDxGj3+8rGCrLNV7p2\\nG17huOkigok5D8DHXC/G5WH9YIMqpfvNPpeSEvlEHd3e9b6XVo7y0nedrx9D\\n93LHLh8OEepY3cCwX7q7AYiy7uBTjUuI0TfBV5b1GAXNNgRQlSCCPJZalIzv\\nTQ4sI0qffarLGY5vkMJiVZfxcV/Shk4deTyTCvVtoOJTeqzdcK6sCm2dXeL2\\nQ7POwiQt50jbxiuq3omb1GpoE58usdRoJ9oyP+lWnMNBRsVRyLJwaWB64jVR\\n6dnPUBw/RwvjT3ia3KSfRQJFau+kp5CSWa3pXWPENjlsvr2IubrwrhduALge\\notKwbjucaUXpMmTkVTMMu+WD1k9/bADWqjet5yR1Igr9jsnhrCZ1+Tjz7uFu\\nbAwDpt+Wuj9jenN6iBj55mTmL1v7uxFCPw4iPUDuI/k7mJg+Zb8NFb21Alnu\\nyiqIX5mjFqkx0XkvGAn4yj2wKn8iPxrllC+KPe+xVyNXXZyDptyi3sBwA2nQ\\n+Pjq\\r\\n=q/yZ\\r\\n-----END PGP SIGNATURE-----\\r\\n\",\"signatures\":[{\"keyid\":\"SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA\",\"sig\":\"MEUCIGc0fwD2yZvwSg2idgUT1f8JZ4p9xN0g9BRH5JJwH5HvAiEA3vnyC/gP5Vib+buXvplXZnTROfnE1cnsNrogrJ4OC88=\"}]},\"_npmUser\":{\"name\":\"coreyfarrell\",\"email\":\"git@cfware.com\"},\"directories\":{},\"maintainers\":[{\"name\":\"coreyfarrell\",\"email\":\"git@cfware.com\"},{\"name\":\"bcoe\",\"email\":\"bencoe@gmail.com\"},{\"name\":\"jakxz\",\"email\":\"jgkurian@me.com\"},{\"name\":\"gotwarlost\",\"email\":\"kananthmail-github@yahoo.com\"}],\"_npmOperationalInternal\":{\"host\":\"s3://npm-registry-packages\",\"tmp\":\"tmp/schema_0.1.3_1613227063326_0.15282028486138133\"},\"_hasShrinkwrap\":false}}}",
+    "contents": "{\"name\":\"@istanbuljs/schema\",\"dist-tags\":{},\"versions\":{\"0.1.3\":{\"name\":\"@istanbuljs/schema\",\"version\":\"0.1.3\",\"author\":{\"name\":\"Corey Farrell\"},\"license\":\"MIT\",\"_id\":\"@istanbuljs/schema@0.1.3\",\"maintainers\":[{\"name\":\"coreyfarrell\",\"email\":\"git@cfware.com\"},{\"name\":\"bcoe\",\"email\":\"bencoe@gmail.com\"},{\"name\":\"jakxz\",\"email\":\"jgkurian@me.com\"},{\"name\":\"gotwarlost\",\"email\":\"kananthmail-github@yahoo.com\"}],\"homepage\":\"https://github.com/istanbuljs/schema#readme\",\"bugs\":{\"url\":\"https://github.com/istanbuljs/schema/issues\"},\"dist\":{\"shasum\":\"e45e384e4b8ec16bce2fd903af78450f6bf7ec98\",\"tarball\":\"https://registry.npmjs.org/@istanbuljs/schema/-/schema-0.1.3.tgz\",\"fileCount\":7,\"integrity\":\"sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==\",\"signatures\":[{\"sig\":\"MEUCIGc0fwD2yZvwSg2idgUT1f8JZ4p9xN0g9BRH5JJwH5HvAiEA3vnyC/gP5Vib+buXvplXZnTROfnE1cnsNrogrJ4OC88=\",\"keyid\":\"SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA\"}],\"unpackedSize\":17161,\"npm-signature\":\"-----BEGIN PGP SIGNATURE-----\\r\\nVersion: OpenPGP.js v3.0.13\\r\\nComment: https://openpgpjs.org\\r\\n\\r\\nwsFcBAEBCAAQBQJgJ+Q3CRA9TVsSAnZWagAAlLYP/AhU51Ssv5Z69jdHWv6C\\nU1/pSw09DTVJksjvqvFib2g1IVBUdy042ZMUK41IglfvHJYyvwxRQz+nu8Na\\ns/Bon+xhZTTpl0ze3uDNBO1E9R2nnuo6jETiedyuKqbv+cJ3p5hxqPnDsIA6\\nbY3sLuFFIu5NjM2rn05HX/HQyfh+zKqpEUfvvV7k3tMDxGj3+8rGCrLNV7p2\\nG17huOkigok5D8DHXC/G5WH9YIMqpfvNPpeSEvlEHd3e9b6XVo7y0nedrx9D\\n93LHLh8OEepY3cCwX7q7AYiy7uBTjUuI0TfBV5b1GAXNNgRQlSCCPJZalIzv\\nTQ4sI0qffarLGY5vkMJiVZfxcV/Shk4deTyTCvVtoOJTeqzdcK6sCm2dXeL2\\nQ7POwiQt50jbxiuq3omb1GpoE58usdRoJ9oyP+lWnMNBRsVRyLJwaWB64jVR\\n6dnPUBw/RwvjT3ia3KSfRQJFau+kp5CSWa3pXWPENjlsvr2IubrwrhduALge\\notKwbjucaUXpMmTkVTMMu+WD1k9/bADWqjet5yR1Igr9jsnhrCZ1+Tjz7uFu\\nbAwDpt+Wuj9jenN6iBj55mTmL1v7uxFCPw4iPUDuI/k7mJg+Zb8NFb21Alnu\\nyiqIX5mjFqkx0XkvGAn4yj2wKn8iPxrllC+KPe+xVyNXXZyDptyi3sBwA2nQ\\n+Pjq\\r\\n=q/yZ\\r\\n-----END PGP SIGNATURE-----\\r\\n\"},\"main\":\"index.js\",\"engines\":{\"node\":\">=8\"},\"gitHead\":\"d7da65adc197d15e06afb3761f560507ae048495\",\"scripts\":{\"snap\":\"npm test -- --snapshot\",\"test\":\"tap\",\"pretest\":\"xo\",\"release\":\"standard-version --sign\"},\"_npmUser\":{\"name\":\"coreyfarrell\",\"email\":\"git@cfware.com\"},\"repository\":{\"url\":\"git+https://github.com/istanbuljs/schema.git\",\"type\":\"git\"},\"_npmVersion\":\"6.14.9\",\"description\":\"Schemas describing various structures used by nyc and istanbuljs\",\"directories\":{},\"_nodeVersion\":\"14.15.3\",\"_hasShrinkwrap\":false,\"devDependencies\":{\"xo\":\"^0.25.3\",\"tap\":\"^14.6.7\",\"standard-version\":\"^7.0.0\"},\"_npmOperationalInternal\":{\"tmp\":\"tmp/schema_0.1.3_1613227063326_0.15282028486138133\",\"host\":\"s3://npm-registry-packages\"}}}}",
     "dest": "deno_dir/npm/registry.npmjs.org/@istanbuljs/schema",
     "dest-filename": "registry.json"
   },
@@ -2153,7 +2223,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"name\":\"@jridgewell/sourcemap-codec\",\"dist-tags\":{},\"versions\":{\"1.5.5\":{\"name\":\"@jridgewell/sourcemap-codec\",\"version\":\"1.5.5\",\"description\":\"Encode/decode sourcemap mappings\",\"keywords\":[\"sourcemap\",\"vlq\"],\"main\":\"dist/sourcemap-codec.umd.js\",\"module\":\"dist/sourcemap-codec.mjs\",\"types\":\"types/sourcemap-codec.d.cts\",\"exports\":{\".\":[{\"import\":{\"types\":\"./types/sourcemap-codec.d.mts\",\"default\":\"./dist/sourcemap-codec.mjs\"},\"default\":{\"types\":\"./types/sourcemap-codec.d.cts\",\"default\":\"./dist/sourcemap-codec.umd.js\"}},\"./dist/sourcemap-codec.umd.js\"],\"./package.json\":\"./package.json\"},\"scripts\":{\"benchmark\":\"run-s build:code benchmark:*\",\"benchmark:install\":\"cd benchmark && npm install\",\"benchmark:only\":\"node --expose-gc benchmark/index.js\",\"build\":\"run-s -n build:code build:types\",\"build:code\":\"node ../../esbuild.mjs sourcemap-codec.ts\",\"build:types\":\"run-s build:types:force build:types:emit build:types:mts\",\"build:types:force\":\"rimraf tsconfig.build.tsbuildinfo\",\"build:types:emit\":\"tsc --project tsconfig.build.json\",\"build:types:mts\":\"node ../../mts-types.mjs\",\"clean\":\"run-s -n clean:code clean:types\",\"clean:code\":\"tsc --build --clean tsconfig.build.json\",\"clean:types\":\"rimraf dist types\",\"test\":\"run-s -n test:types test:only test:format\",\"test:format\":\"prettier --check '{src,test}/**/*.ts'\",\"test:only\":\"mocha\",\"test:types\":\"eslint '{src,test}/**/*.ts'\",\"lint\":\"run-s -n lint:types lint:format\",\"lint:format\":\"npm run test:format -- --write\",\"lint:types\":\"npm run test:types -- --fix\",\"prepublishOnly\":\"npm run-s -n build test\"},\"homepage\":\"https://github.com/jridgewell/sourcemaps/tree/main/packages/sourcemap-codec\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/jridgewell/sourcemaps.git\",\"directory\":\"packages/sourcemap-codec\"},\"author\":{\"name\":\"Justin Ridgewell\",\"email\":\"justin@ridgewell.name\"},\"license\":\"MIT\",\"_id\":\"@jridgewell/sourcemap-codec@1.5.5\",\"gitHead\":\"095a5825c482003597a30aa380b50159219f3618\",\"bugs\":{\"url\":\"https://github.com/jridgewell/sourcemaps/issues\"},\"_nodeVersion\":\"24.4.1\",\"_npmVersion\":\"11.4.2\",\"dist\":{\"integrity\":\"sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==\",\"shasum\":\"6912b00d2c631c0d15ce1a7ab57cd657f2a8f8ba\",\"tarball\":\"https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz\",\"fileCount\":27,\"unpackedSize\":87012,\"signatures\":[{\"keyid\":\"SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U\",\"sig\":\"MEUCIAL/0uzMfFNm0SCbPplYyOF1c7LqEVNfPdJPx8dpUGzfAiEAjEvatvRvPysNMBucClqne0R1nMPYPUhPlefawc0ty84=\"}]},\"_npmUser\":{\"name\":\"jridgewell\",\"email\":\"justin+npm@ridgewell.name\"},\"directories\":{},\"maintainers\":[{\"name\":\"jridgewell\",\"email\":\"justin+npm@ridgewell.name\"}],\"_npmOperationalInternal\":{\"host\":\"s3://npm-registry-packages-npm-production\",\"tmp\":\"tmp/sourcemap-codec_1.5.5_1754981038970_0.8309998126431679\"},\"_hasShrinkwrap\":false}}}",
+    "contents": "{\"name\":\"@jridgewell/sourcemap-codec\",\"dist-tags\":{},\"versions\":{\"1.5.5\":{\"name\":\"@jridgewell/sourcemap-codec\",\"version\":\"1.5.5\",\"keywords\":[\"sourcemap\",\"vlq\"],\"author\":{\"name\":\"Justin Ridgewell\",\"email\":\"justin@ridgewell.name\"},\"license\":\"MIT\",\"_id\":\"@jridgewell/sourcemap-codec@1.5.5\",\"maintainers\":[{\"name\":\"jridgewell\",\"email\":\"justin+npm@ridgewell.name\"}],\"homepage\":\"https://github.com/jridgewell/sourcemaps/tree/main/packages/sourcemap-codec\",\"bugs\":{\"url\":\"https://github.com/jridgewell/sourcemaps/issues\"},\"dist\":{\"shasum\":\"6912b00d2c631c0d15ce1a7ab57cd657f2a8f8ba\",\"tarball\":\"https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz\",\"fileCount\":27,\"integrity\":\"sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==\",\"signatures\":[{\"sig\":\"MEUCIAL/0uzMfFNm0SCbPplYyOF1c7LqEVNfPdJPx8dpUGzfAiEAjEvatvRvPysNMBucClqne0R1nMPYPUhPlefawc0ty84=\",\"keyid\":\"SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U\"}],\"unpackedSize\":87012},\"main\":\"dist/sourcemap-codec.umd.js\",\"types\":\"types/sourcemap-codec.d.cts\",\"module\":\"dist/sourcemap-codec.mjs\",\"exports\":{\".\":[{\"import\":{\"types\":\"./types/sourcemap-codec.d.mts\",\"default\":\"./dist/sourcemap-codec.mjs\"},\"default\":{\"types\":\"./types/sourcemap-codec.d.cts\",\"default\":\"./dist/sourcemap-codec.umd.js\"}},\"./dist/sourcemap-codec.umd.js\"],\"./package.json\":\"./package.json\"},\"gitHead\":\"095a5825c482003597a30aa380b50159219f3618\",\"scripts\":{\"lint\":\"run-s -n lint:types lint:format\",\"test\":\"run-s -n test:types test:only test:format\",\"build\":\"run-s -n build:code build:types\",\"clean\":\"run-s -n clean:code clean:types\",\"benchmark\":\"run-s build:code benchmark:*\",\"test:only\":\"mocha\",\"build:code\":\"node ../../esbuild.mjs sourcemap-codec.ts\",\"clean:code\":\"tsc --build --clean tsconfig.build.json\",\"lint:types\":\"npm run test:types -- --fix\",\"test:types\":\"eslint '{src,test}/**/*.ts'\",\"build:types\":\"run-s build:types:force build:types:emit build:types:mts\",\"clean:types\":\"rimraf dist types\",\"lint:format\":\"npm run test:format -- --write\",\"test:format\":\"prettier --check '{src,test}/**/*.ts'\",\"benchmark:only\":\"node --expose-gc benchmark/index.js\",\"prepublishOnly\":\"npm run-s -n build test\",\"build:types:mts\":\"node ../../mts-types.mjs\",\"build:types:emit\":\"tsc --project tsconfig.build.json\",\"benchmark:install\":\"cd benchmark && npm install\",\"build:types:force\":\"rimraf tsconfig.build.tsbuildinfo\"},\"_npmUser\":{\"name\":\"jridgewell\",\"email\":\"justin+npm@ridgewell.name\"},\"repository\":{\"url\":\"git+https://github.com/jridgewell/sourcemaps.git\",\"type\":\"git\",\"directory\":\"packages/sourcemap-codec\"},\"_npmVersion\":\"11.4.2\",\"description\":\"Encode/decode sourcemap mappings\",\"directories\":{},\"_nodeVersion\":\"24.4.1\",\"_hasShrinkwrap\":false,\"_npmOperationalInternal\":{\"tmp\":\"tmp/sourcemap-codec_1.5.5_1754981038970_0.8309998126431679\",\"host\":\"s3://npm-registry-packages-npm-production\"}}}}",
     "dest": "deno_dir/npm/registry.npmjs.org/@jridgewell/sourcemap-codec",
     "dest-filename": "registry.json"
   },
@@ -2257,7 +2327,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"name\":\"balanced-match\",\"dist-tags\":{},\"versions\":{\"1.0.2\":{\"name\":\"balanced-match\",\"description\":\"Match balanced character pairs, like \\\"{\\\" and \\\"}\\\"\",\"version\":\"1.0.2\",\"repository\":{\"type\":\"git\",\"url\":\"git://github.com/juliangruber/balanced-match.git\"},\"homepage\":\"https://github.com/juliangruber/balanced-match\",\"main\":\"index.js\",\"scripts\":{\"test\":\"tape test/test.js\",\"bench\":\"matcha test/bench.js\"},\"devDependencies\":{\"matcha\":\"^0.7.0\",\"tape\":\"^4.6.0\"},\"keywords\":[\"match\",\"regexp\",\"test\",\"balanced\",\"parse\"],\"author\":{\"name\":\"Julian Gruber\",\"email\":\"mail@juliangruber.com\",\"url\":\"http://juliangruber.com\"},\"license\":\"MIT\",\"testling\":{\"files\":\"test/*.js\",\"browsers\":[\"ie/8..latest\",\"firefox/20..latest\",\"firefox/nightly\",\"chrome/25..latest\",\"chrome/canary\",\"opera/12..latest\",\"opera/next\",\"safari/5.1..latest\",\"ipad/6.0..latest\",\"iphone/6.0..latest\",\"android-browser/4.2..latest\"]},\"gitHead\":\"c7412e09b95d6ad97fd1e2996f6adca7626a9ae8\",\"bugs\":{\"url\":\"https://github.com/juliangruber/balanced-match/issues\"},\"_id\":\"balanced-match@1.0.2\",\"_nodeVersion\":\"15.9.0\",\"_npmVersion\":\"7.7.6\",\"dist\":{\"integrity\":\"sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==\",\"shasum\":\"e83e3a7e3f300b34cb9d87f615fa0cbf357690ee\",\"tarball\":\"https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz\",\"fileCount\":5,\"unpackedSize\":6939,\"npm-signature\":\"-----BEGIN PGP SIGNATURE-----\\r\\nVersion: OpenPGP.js v3.0.13\\r\\nComment: https://openpgpjs.org\\r\\n\\r\\nwsFcBAEBCAAQBQJgbFk9CRA9TVsSAnZWagAAZCkP/2oCPlLyH1O+2fxJepxC\\nP64dIPH4FmdtcuRV6m9JSSnNayjLyl7KZSkzngJveJAVMwBH2oSO40HVruAc\\njNGdawU0sm41Tvkxm0K9AhiT5pfqBHv6KBj/sR5+2iF56zAM7pxrc8eTsgj9\\nHBAYq5ZoePKf+Kki77ilWwK1Z7VXekk3KNgPd4jsbZ58JGL2dLVmqJcOPAfx\\nTRECI9NV5oyHl+EsOGnMnAB8Z7GvNH+/sVo5lWZkldStJDjlj3mZq9fxMo5I\\nw/2pmVPI8dvYYA6r3mp55YYDyvWA49CoRgTHXqEy4tpHmmdTAdB2Je+3j/n0\\nvbJm74Ab6CnZnwa9Oaowz+VcKkcczXICTxPj0D+ddvVksD+6VpnAz79Jyia5\\nqApDNXnYv+8bdnMwhnA2tQ0vz10HANuZ1xfpXE9Yy4Py/1LsTvExovYsie1G\\n9RQ1GkIpGwwyOuzbDqHtrRjduAy35VNtIw2nQTCRLz87w/7DV+RbTvaT1Fp7\\nb4WQN9z6BoX0Bl/Qi8PXTDN5J8M83MsRThoYm20M0nAVeGbxrfHTMJoXvxF9\\ntlHuV3E7W7x3lvG0za7wLn9p76uOzxDX8Osr5POJ/GpEVciz0PWcbHQHFHUm\\nxB+x3O0C9eAdKW/9/7/YA9zMqdqcMuwg6f26neIYIk10oZQyRriBoV6OZtIy\\ntw1n\\r\\n=eH8s\\r\\n-----END PGP SIGNATURE-----\\r\\n\",\"signatures\":[{\"keyid\":\"SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA\",\"sig\":\"MEQCIHRQpAKwqTgs0SDP5KcV7MzsuTPMEkHeNqJFBOy5hYMwAiB/QgzhE/4zo/h6mn5Sl6u4YP0UZKqPYCZe5GhyLntdKA==\"}]},\"_npmUser\":{\"name\":\"juliangruber\",\"email\":\"julian@juliangruber.com\"},\"directories\":{},\"maintainers\":[{\"name\":\"juliangruber\",\"email\":\"julian@juliangruber.com\"}],\"_npmOperationalInternal\":{\"host\":\"s3://npm-registry-packages\",\"tmp\":\"tmp/balanced-match_1.0.2_1617713469141_0.18827857838975826\"},\"_hasShrinkwrap\":false}}}",
+    "contents": "{\"name\":\"balanced-match\",\"dist-tags\":{},\"versions\":{\"1.0.2\":{\"name\":\"balanced-match\",\"version\":\"1.0.2\",\"keywords\":[\"match\",\"regexp\",\"test\",\"balanced\",\"parse\"],\"author\":{\"url\":\"http://juliangruber.com\",\"name\":\"Julian Gruber\",\"email\":\"mail@juliangruber.com\"},\"license\":\"MIT\",\"_id\":\"balanced-match@1.0.2\",\"maintainers\":[{\"name\":\"juliangruber\",\"email\":\"julian@juliangruber.com\"}],\"homepage\":\"https://github.com/juliangruber/balanced-match\",\"bugs\":{\"url\":\"https://github.com/juliangruber/balanced-match/issues\"},\"dist\":{\"shasum\":\"e83e3a7e3f300b34cb9d87f615fa0cbf357690ee\",\"tarball\":\"https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz\",\"fileCount\":5,\"integrity\":\"sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==\",\"signatures\":[{\"sig\":\"MEQCIHRQpAKwqTgs0SDP5KcV7MzsuTPMEkHeNqJFBOy5hYMwAiB/QgzhE/4zo/h6mn5Sl6u4YP0UZKqPYCZe5GhyLntdKA==\",\"keyid\":\"SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA\"}],\"unpackedSize\":6939,\"npm-signature\":\"-----BEGIN PGP SIGNATURE-----\\r\\nVersion: OpenPGP.js v3.0.13\\r\\nComment: https://openpgpjs.org\\r\\n\\r\\nwsFcBAEBCAAQBQJgbFk9CRA9TVsSAnZWagAAZCkP/2oCPlLyH1O+2fxJepxC\\nP64dIPH4FmdtcuRV6m9JSSnNayjLyl7KZSkzngJveJAVMwBH2oSO40HVruAc\\njNGdawU0sm41Tvkxm0K9AhiT5pfqBHv6KBj/sR5+2iF56zAM7pxrc8eTsgj9\\nHBAYq5ZoePKf+Kki77ilWwK1Z7VXekk3KNgPd4jsbZ58JGL2dLVmqJcOPAfx\\nTRECI9NV5oyHl+EsOGnMnAB8Z7GvNH+/sVo5lWZkldStJDjlj3mZq9fxMo5I\\nw/2pmVPI8dvYYA6r3mp55YYDyvWA49CoRgTHXqEy4tpHmmdTAdB2Je+3j/n0\\nvbJm74Ab6CnZnwa9Oaowz+VcKkcczXICTxPj0D+ddvVksD+6VpnAz79Jyia5\\nqApDNXnYv+8bdnMwhnA2tQ0vz10HANuZ1xfpXE9Yy4Py/1LsTvExovYsie1G\\n9RQ1GkIpGwwyOuzbDqHtrRjduAy35VNtIw2nQTCRLz87w/7DV+RbTvaT1Fp7\\nb4WQN9z6BoX0Bl/Qi8PXTDN5J8M83MsRThoYm20M0nAVeGbxrfHTMJoXvxF9\\ntlHuV3E7W7x3lvG0za7wLn9p76uOzxDX8Osr5POJ/GpEVciz0PWcbHQHFHUm\\nxB+x3O0C9eAdKW/9/7/YA9zMqdqcMuwg6f26neIYIk10oZQyRriBoV6OZtIy\\ntw1n\\r\\n=eH8s\\r\\n-----END PGP SIGNATURE-----\\r\\n\"},\"main\":\"index.js\",\"gitHead\":\"c7412e09b95d6ad97fd1e2996f6adca7626a9ae8\",\"scripts\":{\"test\":\"tape test/test.js\",\"bench\":\"matcha test/bench.js\"},\"_npmUser\":{\"name\":\"juliangruber\",\"email\":\"julian@juliangruber.com\"},\"testling\":{\"files\":\"test/*.js\",\"browsers\":[\"ie/8..latest\",\"firefox/20..latest\",\"firefox/nightly\",\"chrome/25..latest\",\"chrome/canary\",\"opera/12..latest\",\"opera/next\",\"safari/5.1..latest\",\"ipad/6.0..latest\",\"iphone/6.0..latest\",\"android-browser/4.2..latest\"]},\"repository\":{\"url\":\"git://github.com/juliangruber/balanced-match.git\",\"type\":\"git\"},\"_npmVersion\":\"7.7.6\",\"description\":\"Match balanced character pairs, like \\\"{\\\" and \\\"}\\\"\",\"directories\":{},\"_nodeVersion\":\"15.9.0\",\"_hasShrinkwrap\":false,\"devDependencies\":{\"tape\":\"^4.6.0\",\"matcha\":\"^0.7.0\"},\"_npmOperationalInternal\":{\"tmp\":\"tmp/balanced-match_1.0.2_1617713469141_0.18827857838975826\",\"host\":\"s3://npm-registry-packages\"}}}}",
     "dest": "deno_dir/npm/registry.npmjs.org/balanced-match",
     "dest-filename": "registry.json"
   },
@@ -2283,7 +2353,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"name\":\"brace-expansion\",\"dist-tags\":{},\"versions\":{\"1.1.12\":{\"name\":\"brace-expansion\",\"description\":\"Brace expansion as known from sh/bash\",\"version\":\"1.1.12\",\"repository\":{\"type\":\"git\",\"url\":\"git://github.com/juliangruber/brace-expansion.git\"},\"homepage\":\"https://github.com/juliangruber/brace-expansion\",\"main\":\"index.js\",\"scripts\":{\"test\":\"tape test/*.js\",\"gentest\":\"bash test/generate.sh\",\"bench\":\"matcha test/perf/bench.js\"},\"dependencies\":{\"balanced-match\":\"^1.0.0\",\"concat-map\":\"0.0.1\"},\"devDependencies\":{\"matcha\":\"^0.7.0\",\"tape\":\"^4.6.0\"},\"keywords\":[],\"author\":{\"name\":\"Julian Gruber\",\"email\":\"mail@juliangruber.com\",\"url\":\"http://juliangruber.com\"},\"license\":\"MIT\",\"testling\":{\"files\":\"test/*.js\",\"browsers\":[\"ie/8..latest\",\"firefox/20..latest\",\"firefox/nightly\",\"chrome/25..latest\",\"chrome/canary\",\"opera/12..latest\",\"opera/next\",\"safari/5.1..latest\",\"ipad/6.0..latest\",\"iphone/6.0..latest\",\"android-browser/4.2..latest\"]},\"publishConfig\":{\"tag\":\"1.x\"},\"_id\":\"brace-expansion@1.1.12\",\"readmeFilename\":\"README.md\",\"gitHead\":\"44f33b47c5c6a965d507421af43e86cf5971d711\",\"bugs\":{\"url\":\"https://github.com/juliangruber/brace-expansion/issues\"},\"_nodeVersion\":\"22.14.0\",\"_npmVersion\":\"10.9.2\",\"dist\":{\"integrity\":\"sha512-9T9UjW3r0UW5c1Q7GTwllptXwhvYmEzFhzMfZ9H7FQWt+uZePjZPjBP/W1ZEyZ1twGWom5/56TF4lPcqjnDHcg==\",\"shasum\":\"ab9b454466e5a8cc3a187beaad580412a9c5b843\",\"tarball\":\"https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.12.tgz\",\"fileCount\":4,\"unpackedSize\":11107,\"signatures\":[{\"keyid\":\"SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U\",\"sig\":\"MEUCIQCefRVlAiPWPz42vj2hoqvreB3Job7AZ0kiUGVtB1yl1gIge5j1MzW2qkqi81uRNwZK1QPOMLfb8Xo8f2zlR2sYDV0=\"}]},\"_npmUser\":{\"name\":\"juliangruber\",\"email\":\"julian@juliangruber.com\"},\"directories\":{},\"maintainers\":[{\"name\":\"juliangruber\",\"email\":\"julian@juliangruber.com\"},{\"name\":\"isaacs\",\"email\":\"i@izs.me\"}],\"_npmOperationalInternal\":{\"host\":\"s3://npm-registry-packages-npm-production\",\"tmp\":\"tmp/brace-expansion_1.1.12_1749631977985_0.4250458404269102\"},\"_hasShrinkwrap\":false}}}",
+    "contents": "{\"name\":\"brace-expansion\",\"dist-tags\":{},\"versions\":{\"1.1.12\":{\"name\":\"brace-expansion\",\"version\":\"1.1.12\",\"keywords\":[],\"author\":{\"url\":\"http://juliangruber.com\",\"name\":\"Julian Gruber\",\"email\":\"mail@juliangruber.com\"},\"license\":\"MIT\",\"_id\":\"brace-expansion@1.1.12\",\"maintainers\":[{\"name\":\"juliangruber\",\"email\":\"julian@juliangruber.com\"},{\"name\":\"isaacs\",\"email\":\"i@izs.me\"}],\"homepage\":\"https://github.com/juliangruber/brace-expansion\",\"bugs\":{\"url\":\"https://github.com/juliangruber/brace-expansion/issues\"},\"dist\":{\"shasum\":\"ab9b454466e5a8cc3a187beaad580412a9c5b843\",\"tarball\":\"https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.12.tgz\",\"fileCount\":4,\"integrity\":\"sha512-9T9UjW3r0UW5c1Q7GTwllptXwhvYmEzFhzMfZ9H7FQWt+uZePjZPjBP/W1ZEyZ1twGWom5/56TF4lPcqjnDHcg==\",\"signatures\":[{\"sig\":\"MEUCIQCefRVlAiPWPz42vj2hoqvreB3Job7AZ0kiUGVtB1yl1gIge5j1MzW2qkqi81uRNwZK1QPOMLfb8Xo8f2zlR2sYDV0=\",\"keyid\":\"SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U\"}],\"unpackedSize\":11107},\"main\":\"index.js\",\"gitHead\":\"44f33b47c5c6a965d507421af43e86cf5971d711\",\"scripts\":{\"test\":\"tape test/*.js\",\"bench\":\"matcha test/perf/bench.js\",\"gentest\":\"bash test/generate.sh\"},\"_npmUser\":{\"name\":\"juliangruber\",\"email\":\"julian@juliangruber.com\"},\"testling\":{\"files\":\"test/*.js\",\"browsers\":[\"ie/8..latest\",\"firefox/20..latest\",\"firefox/nightly\",\"chrome/25..latest\",\"chrome/canary\",\"opera/12..latest\",\"opera/next\",\"safari/5.1..latest\",\"ipad/6.0..latest\",\"iphone/6.0..latest\",\"android-browser/4.2..latest\"]},\"repository\":{\"url\":\"git://github.com/juliangruber/brace-expansion.git\",\"type\":\"git\"},\"_npmVersion\":\"10.9.2\",\"description\":\"Brace expansion as known from sh/bash\",\"directories\":{},\"_nodeVersion\":\"22.14.0\",\"dependencies\":{\"concat-map\":\"0.0.1\",\"balanced-match\":\"^1.0.0\"},\"publishConfig\":{\"tag\":\"1.x\"},\"_hasShrinkwrap\":false,\"readmeFilename\":\"README.md\",\"devDependencies\":{\"tape\":\"^4.6.0\",\"matcha\":\"^0.7.0\"},\"_npmOperationalInternal\":{\"tmp\":\"tmp/brace-expansion_1.1.12_1749631977985_0.4250458404269102\",\"host\":\"s3://npm-registry-packages-npm-production\"}}}}",
     "dest": "deno_dir/npm/registry.npmjs.org/brace-expansion",
     "dest-filename": "registry.json"
   },
@@ -2556,7 +2626,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"name\":\"gettext-converter\",\"dist-tags\":{},\"versions\":{\"1.3.0\":{\"name\":\"gettext-converter\",\"version\":\"1.3.0\",\"description\":\"po2js and js2po and i18next2po and po2i18next converter gettext resource utils\",\"type\":\"module\",\"main\":\"./cjs/index.js\",\"exports\":{\"./package.json\":\"./package.json\",\".\":{\"require\":\"./cjs/index.js\",\"default\":\"./esm/index.js\"},\"./po2js\":{\"require\":\"./cjs/po2js.js\",\"default\":\"./esm/po2js.js\"},\"./js2po\":{\"require\":\"./cjs/js2po.js\",\"default\":\"./esm/js2po.js\"},\"./js2i18next\":{\"require\":\"./cjs/js2i18next.js\",\"default\":\"./esm/js2i18next.js\"},\"./po2i18next\":{\"require\":\"./cjs/po2i18next.js\",\"default\":\"./esm/po2i18next.js\"},\"./i18next2js\":{\"require\":\"./cjs/i18next2js.js\",\"default\":\"./esm/i18next2js.js\"},\"./i18next2po\":{\"require\":\"./cjs/i18next2po.js\",\"default\":\"./esm/i18next2po.js\"},\"./cjs\":{\"default\":\"./cjs/index.js\"},\"./cjs/po2js\":{\"default\":\"./cjs/po2js.js\"},\"./cjs/js2po\":{\"default\":\"./cjs/js2po.js\"},\"./cjs/js2i18next\":{\"default\":\"./cjs/js2i18next.js\"},\"./cjs/po2i18next\":{\"default\":\"./cjs/po2i18next.js\"},\"./cjs/i18next2po\":{\"default\":\"./cjs/i18next2po.js\"},\"./esm\":{\"default\":\"./esm/index.js\"},\"./esm/po2js\":{\"default\":\"./esm/po2js.js\"},\"./esm/js2po\":{\"default\":\"./esm/js2po.js\"},\"./esm/js2i18next\":{\"default\":\"./esm/js2i18next.js\"},\"./esm/po2i18next\":{\"default\":\"./esm/po2i18next.js\"},\"./esm/i18next2po\":{\"default\":\"./esm/i18next2po.js\"}},\"module\":\"./esm/index.js\",\"dependencies\":{\"arrify\":\"^2.0.1\",\"content-type\":\"1.0.5\",\"encoding\":\"0.1.13\"},\"devDependencies\":{\"@babel/cli\":\"7.23.9\",\"@babel/core\":\"7.24.0\",\"@babel/preset-env\":\"7.24.0\",\"babel-plugin-add-module-exports\":\"1.0.4\",\"browserify\":\"17.0.0\",\"eslint\":\"8.57.0\",\"eslint-config-standard\":\"17.1.0\",\"eslint-plugin-import\":\"2.29.1\",\"eslint-plugin-n\":\"16.6.2\",\"eslint-plugin-promise\":\"6.1.1\",\"eslint-plugin-require-path-exists\":\"1.1.9\",\"eslint-plugin-standard\":\"5.0.0\",\"expect.js\":\"0.3.1\",\"mocha\":\"10.3.0\",\"uglify-js\":\"3.17.4\"},\"scripts\":{\"lint\":\"eslint .\",\"compile:esm\":\"rm -rf esm && mkdir esm && BABEL_ENV=esm babel lib -d esm\",\"compile:cjs\":\"rm -rf cjs && mkdir cjs && BABEL_ENV=cjs babel lib -d cjs && echo '{\\\"type\\\":\\\"commonjs\\\"}' > cjs/package.json\",\"compile\":\"npm run compile:esm && npm run compile:cjs\",\"browser\":\"browserify --standalone gettext cjs/index.js -o gettext.js && uglifyjs gettext.js --compress --mangle -o gettext.min.js\",\"build\":\"npm run compile && npm run browser\",\"test\":\"npm run lint && npm run build && mocha test -R spec\",\"preversion\":\"npm run test && npm run build && git push\",\"postversion\":\"git push && git push --tags\"},\"keywords\":[\"gettext\",\"json\",\"js\",\"translation\",\"converter\"],\"author\":{\"name\":\"adrai\"},\"license\":\"MIT\",\"homepage\":\"http://locize.com\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/locize/gettext-converter.git\"},\"_id\":\"gettext-converter@1.3.0\",\"gitHead\":\"8ba2abc1f9a1077a20b63a1b76724387be3ecbc5\",\"bugs\":{\"url\":\"https://github.com/locize/gettext-converter/issues\"},\"_nodeVersion\":\"20.10.0\",\"_npmVersion\":\"10.2.3\",\"dist\":{\"integrity\":\"sha512-vXjx4vRBjw6rd3Zg73IMyNLZuPjs8/lE9gJZs270YJJI0t5vlCpdsyX5E0TmSd+KcRWzwPbwjwd6bnNpF72sFQ==\",\"shasum\":\"c01ee63f05469cc7b578bbda25c657fea01d7d8f\",\"tarball\":\"https://registry.npmjs.org/gettext-converter/-/gettext-converter-1.3.0.tgz\",\"fileCount\":48,\"unpackedSize\":940948,\"signatures\":[{\"keyid\":\"SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA\",\"sig\":\"MEQCIAhbcVL+tCaDMif+BXBDiAHo8bj2KRG5isUcwFdEpO0tAiBOeLM8h2FnO7tpFqw3qYjr1qr1YvWKyn4VfyarUJJhoA==\"}]},\"_npmUser\":{\"name\":\"adrai\",\"email\":\"adriano@raiano.ch\"},\"directories\":{},\"maintainers\":[{\"name\":\"adrai\",\"email\":\"adriano@raiano.ch\"},{\"name\":\"jamuhl\",\"email\":\"jan.muehlemann@gmail.com\"}],\"_npmOperationalInternal\":{\"host\":\"s3://npm-registry-packages\",\"tmp\":\"tmp/gettext-converter_1.3.0_1710237964297_0.22131955968161865\"},\"_hasShrinkwrap\":false}}}",
+    "contents": "{\"name\":\"gettext-converter\",\"dist-tags\":{},\"versions\":{\"1.3.0\":{\"name\":\"gettext-converter\",\"version\":\"1.3.0\",\"keywords\":[\"gettext\",\"json\",\"js\",\"translation\",\"converter\"],\"author\":{\"name\":\"adrai\"},\"license\":\"MIT\",\"_id\":\"gettext-converter@1.3.0\",\"maintainers\":[{\"name\":\"adrai\",\"email\":\"adriano@raiano.ch\"},{\"name\":\"jamuhl\",\"email\":\"jan.muehlemann@gmail.com\"}],\"homepage\":\"http://locize.com\",\"bugs\":{\"url\":\"https://github.com/locize/gettext-converter/issues\"},\"dist\":{\"shasum\":\"c01ee63f05469cc7b578bbda25c657fea01d7d8f\",\"tarball\":\"https://registry.npmjs.org/gettext-converter/-/gettext-converter-1.3.0.tgz\",\"fileCount\":48,\"integrity\":\"sha512-vXjx4vRBjw6rd3Zg73IMyNLZuPjs8/lE9gJZs270YJJI0t5vlCpdsyX5E0TmSd+KcRWzwPbwjwd6bnNpF72sFQ==\",\"signatures\":[{\"sig\":\"MEQCIAhbcVL+tCaDMif+BXBDiAHo8bj2KRG5isUcwFdEpO0tAiBOeLM8h2FnO7tpFqw3qYjr1qr1YvWKyn4VfyarUJJhoA==\",\"keyid\":\"SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA\"}],\"unpackedSize\":940948},\"main\":\"./cjs/index.js\",\"type\":\"module\",\"module\":\"./esm/index.js\",\"exports\":{\".\":{\"default\":\"./esm/index.js\",\"require\":\"./cjs/index.js\"},\"./cjs\":{\"default\":\"./cjs/index.js\"},\"./esm\":{\"default\":\"./esm/index.js\"},\"./js2po\":{\"default\":\"./esm/js2po.js\",\"require\":\"./cjs/js2po.js\"},\"./po2js\":{\"default\":\"./esm/po2js.js\",\"require\":\"./cjs/po2js.js\"},\"./cjs/js2po\":{\"default\":\"./cjs/js2po.js\"},\"./cjs/po2js\":{\"default\":\"./cjs/po2js.js\"},\"./esm/js2po\":{\"default\":\"./esm/js2po.js\"},\"./esm/po2js\":{\"default\":\"./esm/po2js.js\"},\"./i18next2js\":{\"default\":\"./esm/i18next2js.js\",\"require\":\"./cjs/i18next2js.js\"},\"./i18next2po\":{\"default\":\"./esm/i18next2po.js\",\"require\":\"./cjs/i18next2po.js\"},\"./js2i18next\":{\"default\":\"./esm/js2i18next.js\",\"require\":\"./cjs/js2i18next.js\"},\"./po2i18next\":{\"default\":\"./esm/po2i18next.js\",\"require\":\"./cjs/po2i18next.js\"},\"./package.json\":\"./package.json\",\"./cjs/i18next2po\":{\"default\":\"./cjs/i18next2po.js\"},\"./cjs/js2i18next\":{\"default\":\"./cjs/js2i18next.js\"},\"./cjs/po2i18next\":{\"default\":\"./cjs/po2i18next.js\"},\"./esm/i18next2po\":{\"default\":\"./esm/i18next2po.js\"},\"./esm/js2i18next\":{\"default\":\"./esm/js2i18next.js\"},\"./esm/po2i18next\":{\"default\":\"./esm/po2i18next.js\"}},\"gitHead\":\"8ba2abc1f9a1077a20b63a1b76724387be3ecbc5\",\"scripts\":{\"lint\":\"eslint .\",\"test\":\"npm run lint && npm run build && mocha test -R spec\",\"build\":\"npm run compile && npm run browser\",\"browser\":\"browserify --standalone gettext cjs/index.js -o gettext.js && uglifyjs gettext.js --compress --mangle -o gettext.min.js\",\"compile\":\"npm run compile:esm && npm run compile:cjs\",\"preversion\":\"npm run test && npm run build && git push\",\"compile:cjs\":\"rm -rf cjs && mkdir cjs && BABEL_ENV=cjs babel lib -d cjs && echo '{\\\"type\\\":\\\"commonjs\\\"}' > cjs/package.json\",\"compile:esm\":\"rm -rf esm && mkdir esm && BABEL_ENV=esm babel lib -d esm\",\"postversion\":\"git push && git push --tags\"},\"_npmUser\":{\"name\":\"adrai\",\"email\":\"adriano@raiano.ch\"},\"repository\":{\"url\":\"git+https://github.com/locize/gettext-converter.git\",\"type\":\"git\"},\"_npmVersion\":\"10.2.3\",\"description\":\"po2js and js2po and i18next2po and po2i18next converter gettext resource utils\",\"directories\":{},\"_nodeVersion\":\"20.10.0\",\"dependencies\":{\"arrify\":\"^2.0.1\",\"encoding\":\"0.1.13\",\"content-type\":\"1.0.5\"},\"_hasShrinkwrap\":false,\"devDependencies\":{\"mocha\":\"10.3.0\",\"eslint\":\"8.57.0\",\"expect.js\":\"0.3.1\",\"uglify-js\":\"3.17.4\",\"@babel/cli\":\"7.23.9\",\"browserify\":\"17.0.0\",\"@babel/core\":\"7.24.0\",\"eslint-plugin-n\":\"16.6.2\",\"@babel/preset-env\":\"7.24.0\",\"eslint-plugin-import\":\"2.29.1\",\"eslint-plugin-promise\":\"6.1.1\",\"eslint-config-standard\":\"17.1.0\",\"eslint-plugin-standard\":\"5.0.0\",\"babel-plugin-add-module-exports\":\"1.0.4\",\"eslint-plugin-require-path-exists\":\"1.1.9\"},\"_npmOperationalInternal\":{\"tmp\":\"tmp/gettext-converter_1.3.0_1710237964297_0.22131955968161865\",\"host\":\"s3://npm-registry-packages\"}}}}",
     "dest": "deno_dir/npm/registry.npmjs.org/gettext-converter",
     "dest-filename": "registry.json"
   },
@@ -2582,7 +2652,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"name\":\"glob\",\"dist-tags\":{},\"versions\":{\"7.2.3\":{\"name\":\"glob\",\"version\":\"7.2.3\",\"author\":{\"url\":\"http://blog.izs.me/\",\"name\":\"Isaac Z. Schlueter\",\"email\":\"i@izs.me\"},\"license\":\"ISC\",\"_id\":\"glob@7.2.3\",\"maintainers\":[{\"name\":\"isaacs\",\"email\":\"i@izs.me\"}],\"homepage\":\"https://github.com/isaacs/node-glob#readme\",\"bugs\":{\"url\":\"https://github.com/isaacs/node-glob/issues\"},\"tap\":{\"jobs\":1,\"after\":\"test/zz-cleanup.js\",\"before\":\"test/00-setup.js\"},\"dist\":{\"shasum\":\"b8df0fb802bbfa8e89bd1d938b4e16578ed44f2b\",\"tarball\":\"https://registry.npmjs.org/glob/-/glob-7.2.3.tgz\",\"fileCount\":6,\"integrity\":\"sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==\",\"signatures\":[{\"sig\":\"MEUCIDE4qmKAbJI1BNug7/2IpHvjk34XjYrTyYJQt6wmjipFAiEA+3GoKlGbIW+7dloZtSwisGZJaFztJowqCHye7GZirDI=\",\"keyid\":\"SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA\"}],\"unpackedSize\":55064,\"npm-signature\":\"-----BEGIN PGP SIGNATURE-----\\r\\nVersion: OpenPGP.js v4.10.10\\r\\nComment: https://openpgpjs.org\\r\\n\\r\\nwsFzBAEBCAAGBQJigRG0ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\\r\\nEgJ2Vmre7A//cbIznRlRXwGKsqgVQq6PnM6b1T3ipVFteb2GWeUGutntIQBN\\r\\nJ5w3VzMFVvWX8UvcQMvAKYjWIiy/Okq3Ym0EtrLT0k7FmlFPHKMc2JPS4f9U\\r\\njtJjyPaIHnL6sDhmSodwDOqybqETTUDlLjG8A+bE1ubqByCsa8ouxoOTQvUV\\r\\nUG+VhPktG5VT2FhQjP5IFMuu/nRcFLg/Hr6awUlO1czCdhJ19msI1l2CeIVb\\r\\nCe8i54YPTVNPnwtAwPBefV4zGpJM9M+fItMm5dLj78o+1tomW6iIGIsMWHCO\\r\\nDmF7twk+1h3nyiiCgu8B49NaDFrFnJZQ8pHF7nQcthk6Bxt6KR4taf7mg+QJ\\r\\nIWONQ9ePRBKjDq7uNSoz1XNUE62/bJv1PovVRga7bqmVr7RxH1gAS0KaH0TV\\r\\nrc7HLMWVOdupnRDlPjTL+rkoUmajWVg6C3Y+3mQ59mrru0Ux2fK3gHxfuErO\\r\\nUHnaTSGGlEVQMJHa6XDMLdbhC6kUNu5BCxaLiqeBvS7r8gYnJfR644PhEyZr\\r\\n/NMYXVkzapDBd1Jd3b713yTv+zfcCpy3RqooqecSSVyLqXxQ/a6qPytAwkrn\\r\\ndMRQJmFMnaHfE/fh4pAJcRdI9+I5T87eMPbmuvDnbxwzMXLnaAe+vxIa7u+L\\r\\nhxzMH/SiC8ztBaHgNPzxyptD4LUbDqx+X9s=\\r\\n=co+l\\r\\n-----END PGP SIGNATURE-----\\r\\n\"},\"main\":\"glob.js\",\"engines\":{\"node\":\"*\"},\"funding\":{\"url\":\"https://github.com/sponsors/isaacs\"},\"gitHead\":\"c3cd57ae128faa0e9190492acc743bb779ac4054\",\"scripts\":{\"prof\":\"bash prof.sh && cat profile.txt\",\"test\":\"tap\",\"bench\":\"bash benchmark.sh\",\"profclean\":\"rm -f v8.log profile.txt\",\"benchclean\":\"node benchclean.js\",\"prepublish\":\"npm run benchclean\",\"test-regen\":\"npm run profclean && TEST_REGEN=1 node test/00-setup.js\"},\"_npmUser\":{\"name\":\"isaacs\",\"email\":\"i@izs.me\"},\"deprecated\":\"Glob versions prior to v9 are no longer supported\",\"repository\":{\"url\":\"git://github.com/isaacs/node-glob.git\",\"type\":\"git\"},\"_npmVersion\":\"8.8.0\",\"description\":\"a little globber\",\"directories\":{},\"_nodeVersion\":\"18.1.0\",\"dependencies\":{\"once\":\"^1.3.0\",\"inflight\":\"^1.0.4\",\"inherits\":\"2\",\"minimatch\":\"^3.1.1\",\"fs.realpath\":\"^1.0.0\",\"path-is-absolute\":\"^1.0.0\"},\"publishConfig\":{\"tag\":\"v7-legacy\"},\"_hasShrinkwrap\":false,\"readmeFilename\":\"README.md\",\"devDependencies\":{\"tap\":\"^15.0.6\",\"tick\":\"0.0.6\",\"memfs\":\"^3.2.0\",\"mkdirp\":\"0\",\"rimraf\":\"^2.2.8\"},\"_npmOperationalInternal\":{\"tmp\":\"tmp/glob_7.2.3_1652625844715_0.8582849379293422\",\"host\":\"s3://npm-registry-packages\"}}}}",
+    "contents": "{\"name\":\"glob\",\"dist-tags\":{},\"versions\":{\"7.2.3\":{\"name\":\"glob\",\"version\":\"7.2.3\",\"author\":{\"url\":\"http://blog.izs.me/\",\"name\":\"Isaac Z. Schlueter\",\"email\":\"i@izs.me\"},\"license\":\"ISC\",\"_id\":\"glob@7.2.3\",\"maintainers\":[{\"name\":\"isaacs\",\"email\":\"i@izs.me\"}],\"homepage\":\"https://github.com/isaacs/node-glob#readme\",\"bugs\":{\"url\":\"https://github.com/isaacs/node-glob/issues\"},\"tap\":{\"jobs\":1,\"after\":\"test/zz-cleanup.js\",\"before\":\"test/00-setup.js\"},\"dist\":{\"shasum\":\"b8df0fb802bbfa8e89bd1d938b4e16578ed44f2b\",\"tarball\":\"https://registry.npmjs.org/glob/-/glob-7.2.3.tgz\",\"fileCount\":6,\"integrity\":\"sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==\",\"signatures\":[{\"sig\":\"MEUCIDE4qmKAbJI1BNug7/2IpHvjk34XjYrTyYJQt6wmjipFAiEA+3GoKlGbIW+7dloZtSwisGZJaFztJowqCHye7GZirDI=\",\"keyid\":\"SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA\"}],\"unpackedSize\":55064,\"npm-signature\":\"-----BEGIN PGP SIGNATURE-----\\r\\nVersion: OpenPGP.js v4.10.10\\r\\nComment: https://openpgpjs.org\\r\\n\\r\\nwsFzBAEBCAAGBQJigRG0ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\\r\\nEgJ2Vmre7A//cbIznRlRXwGKsqgVQq6PnM6b1T3ipVFteb2GWeUGutntIQBN\\r\\nJ5w3VzMFVvWX8UvcQMvAKYjWIiy/Okq3Ym0EtrLT0k7FmlFPHKMc2JPS4f9U\\r\\njtJjyPaIHnL6sDhmSodwDOqybqETTUDlLjG8A+bE1ubqByCsa8ouxoOTQvUV\\r\\nUG+VhPktG5VT2FhQjP5IFMuu/nRcFLg/Hr6awUlO1czCdhJ19msI1l2CeIVb\\r\\nCe8i54YPTVNPnwtAwPBefV4zGpJM9M+fItMm5dLj78o+1tomW6iIGIsMWHCO\\r\\nDmF7twk+1h3nyiiCgu8B49NaDFrFnJZQ8pHF7nQcthk6Bxt6KR4taf7mg+QJ\\r\\nIWONQ9ePRBKjDq7uNSoz1XNUE62/bJv1PovVRga7bqmVr7RxH1gAS0KaH0TV\\r\\nrc7HLMWVOdupnRDlPjTL+rkoUmajWVg6C3Y+3mQ59mrru0Ux2fK3gHxfuErO\\r\\nUHnaTSGGlEVQMJHa6XDMLdbhC6kUNu5BCxaLiqeBvS7r8gYnJfR644PhEyZr\\r\\n/NMYXVkzapDBd1Jd3b713yTv+zfcCpy3RqooqecSSVyLqXxQ/a6qPytAwkrn\\r\\ndMRQJmFMnaHfE/fh4pAJcRdI9+I5T87eMPbmuvDnbxwzMXLnaAe+vxIa7u+L\\r\\nhxzMH/SiC8ztBaHgNPzxyptD4LUbDqx+X9s=\\r\\n=co+l\\r\\n-----END PGP SIGNATURE-----\\r\\n\"},\"main\":\"glob.js\",\"engines\":{\"node\":\"*\"},\"funding\":{\"url\":\"https://github.com/sponsors/isaacs\"},\"gitHead\":\"c3cd57ae128faa0e9190492acc743bb779ac4054\",\"scripts\":{\"prof\":\"bash prof.sh && cat profile.txt\",\"test\":\"tap\",\"bench\":\"bash benchmark.sh\",\"profclean\":\"rm -f v8.log profile.txt\",\"benchclean\":\"node benchclean.js\",\"prepublish\":\"npm run benchclean\",\"test-regen\":\"npm run profclean && TEST_REGEN=1 node test/00-setup.js\"},\"_npmUser\":{\"name\":\"isaacs\",\"email\":\"i@izs.me\"},\"deprecated\":\"Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me\",\"repository\":{\"url\":\"git://github.com/isaacs/node-glob.git\",\"type\":\"git\"},\"_npmVersion\":\"8.8.0\",\"description\":\"a little globber\",\"directories\":{},\"_nodeVersion\":\"18.1.0\",\"dependencies\":{\"once\":\"^1.3.0\",\"inflight\":\"^1.0.4\",\"inherits\":\"2\",\"minimatch\":\"^3.1.1\",\"fs.realpath\":\"^1.0.0\",\"path-is-absolute\":\"^1.0.0\"},\"publishConfig\":{\"tag\":\"v7-legacy\"},\"_hasShrinkwrap\":false,\"readmeFilename\":\"README.md\",\"devDependencies\":{\"tap\":\"^15.0.6\",\"tick\":\"0.0.6\",\"memfs\":\"^3.2.0\",\"mkdirp\":\"0\",\"rimraf\":\"^2.2.8\"},\"_npmOperationalInternal\":{\"tmp\":\"tmp/glob_7.2.3_1652625844715_0.8582849379293422\",\"host\":\"s3://npm-registry-packages\"}}}}",
     "dest": "deno_dir/npm/registry.npmjs.org/glob",
     "dest-filename": "registry.json"
   },
@@ -2699,7 +2769,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"name\":\"isexe\",\"dist-tags\":{},\"versions\":{\"2.0.0\":{\"name\":\"isexe\",\"version\":\"2.0.0\",\"description\":\"Minimal module to check if a file is executable.\",\"main\":\"index.js\",\"directories\":{\"test\":\"test\"},\"devDependencies\":{\"mkdirp\":\"^0.5.1\",\"rimraf\":\"^2.5.0\",\"tap\":\"^10.3.0\"},\"scripts\":{\"test\":\"tap test/*.js --100\",\"preversion\":\"npm test\",\"postversion\":\"npm publish\",\"postpublish\":\"git push origin --all; git push origin --tags\"},\"author\":{\"name\":\"Isaac Z. Schlueter\",\"email\":\"i@izs.me\",\"url\":\"http://blog.izs.me/\"},\"license\":\"ISC\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/isaacs/isexe.git\"},\"keywords\":[],\"bugs\":{\"url\":\"https://github.com/isaacs/isexe/issues\"},\"homepage\":\"https://github.com/isaacs/isexe#readme\",\"gitHead\":\"10f8be491aab2e158c7e20df64a7f90ab5b5475c\",\"_id\":\"isexe@2.0.0\",\"_shasum\":\"e8fbf374dc556ff8947a10dcb0572d633f2cfa10\",\"_from\":\".\",\"_npmVersion\":\"4.4.2\",\"_nodeVersion\":\"8.0.0-pre\",\"_npmUser\":{\"name\":\"isaacs\",\"email\":\"i@izs.me\"},\"dist\":{\"shasum\":\"e8fbf374dc556ff8947a10dcb0572d633f2cfa10\",\"tarball\":\"https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz\",\"integrity\":\"sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==\",\"signatures\":[{\"keyid\":\"SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA\",\"sig\":\"MEQCIADIHL0vHAyBDSHK5BeCzNQb3ooCTHoBU+bp0my0d0pwAiAEzxUmLzKn2xsUOTDZngxVYgQ+2BELnj8z+ZNAJWENzA==\"}]},\"maintainers\":[{\"name\":\"isaacs\",\"email\":\"i@izs.me\"}],\"_npmOperationalInternal\":{\"host\":\"packages-12-west.internal.npmjs.com\",\"tmp\":\"tmp/isexe-2.0.0.tgz_1490230396126_0.8949183595832437\"}}}}",
+    "contents": "{\"name\":\"isexe\",\"dist-tags\":{},\"versions\":{\"2.0.0\":{\"name\":\"isexe\",\"version\":\"2.0.0\",\"keywords\":[],\"author\":{\"url\":\"http://blog.izs.me/\",\"name\":\"Isaac Z. Schlueter\",\"email\":\"i@izs.me\"},\"license\":\"ISC\",\"_id\":\"isexe@2.0.0\",\"maintainers\":[{\"name\":\"isaacs\",\"email\":\"i@izs.me\"}],\"homepage\":\"https://github.com/isaacs/isexe#readme\",\"bugs\":{\"url\":\"https://github.com/isaacs/isexe/issues\"},\"dist\":{\"shasum\":\"e8fbf374dc556ff8947a10dcb0572d633f2cfa10\",\"tarball\":\"https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz\",\"integrity\":\"sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==\",\"signatures\":[{\"sig\":\"MEQCIADIHL0vHAyBDSHK5BeCzNQb3ooCTHoBU+bp0my0d0pwAiAEzxUmLzKn2xsUOTDZngxVYgQ+2BELnj8z+ZNAJWENzA==\",\"keyid\":\"SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA\"}]},\"main\":\"index.js\",\"_from\":\".\",\"_shasum\":\"e8fbf374dc556ff8947a10dcb0572d633f2cfa10\",\"gitHead\":\"10f8be491aab2e158c7e20df64a7f90ab5b5475c\",\"scripts\":{\"test\":\"tap test/*.js --100\",\"preversion\":\"npm test\",\"postpublish\":\"git push origin --all; git push origin --tags\",\"postversion\":\"npm publish\"},\"_npmUser\":{\"name\":\"isaacs\",\"email\":\"i@izs.me\"},\"repository\":{\"url\":\"git+https://github.com/isaacs/isexe.git\",\"type\":\"git\"},\"_npmVersion\":\"4.4.2\",\"description\":\"Minimal module to check if a file is executable.\",\"directories\":{\"test\":\"test\"},\"_nodeVersion\":\"8.0.0-pre\",\"devDependencies\":{\"tap\":\"^10.3.0\",\"mkdirp\":\"^0.5.1\",\"rimraf\":\"^2.5.0\"},\"_npmOperationalInternal\":{\"tmp\":\"tmp/isexe-2.0.0.tgz_1490230396126_0.8949183595832437\",\"host\":\"packages-12-west.internal.npmjs.com\"}}}}",
     "dest": "deno_dir/npm/registry.npmjs.org/isexe",
     "dest-filename": "registry.json"
   },
@@ -2816,7 +2886,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"name\":\"node-gettext\",\"dist-tags\":{},\"versions\":{\"3.0.0\":{\"name\":\"node-gettext\",\"description\":\"A JavaScript implementation of gettext, a localization framework\",\"version\":\"3.0.0\",\"author\":{\"name\":\"Andris Reinman\"},\"maintainers\":[{\"name\":\"alexander_wallin\",\"email\":\"office@alexanderwallin.com\"},{\"name\":\"andris\",\"email\":\"andris@kreata.ee\"}],\"homepage\":\"http://github.com/alexanderwallin/node-gettext\",\"repository\":{\"type\":\"git\",\"url\":\"git+ssh://git@github.com/alexanderwallin/node-gettext.git\"},\"scripts\":{\"test\":\"grunt\",\"docs\":\"jsdoc2md -f lib/gettext.js -t docs/README.template.md --partial docs/templates/*.hbs --param-list-format list > README.md\"},\"main\":\"./lib/gettext.js\",\"licenses\":[{\"type\":\"MIT\",\"url\":\"http://github.com/alexanderwallin/node-gettext/blob/master/LICENSE\"}],\"dependencies\":{\"lodash.get\":\"^4.4.2\"},\"devDependencies\":{\"chai\":\"^4.2.0\",\"grunt\":\"^1.0.1\",\"grunt-cli\":\"^1.2.0\",\"grunt-contrib-jshint\":\"^1.0.0\",\"grunt-mocha-test\":\"^0.12.7\",\"jsdoc-to-markdown\":\"^5.0.3\",\"mocha\":\"^7.1.1\",\"sinon\":\"^9.0.1\"},\"engine\":{\"node\":\">=10\"},\"keywords\":[\"i18n\",\"l10n\",\"internationalization\",\"localization\",\"translation\",\"gettext\"],\"gitHead\":\"5bad107a348670d47e76f91ebafacf3bfbce4731\",\"bugs\":{\"url\":\"https://github.com/alexanderwallin/node-gettext/issues\"},\"_id\":\"node-gettext@3.0.0\",\"_nodeVersion\":\"12.11.1\",\"_npmVersion\":\"6.11.3\",\"dist\":{\"integrity\":\"sha512-/VRYibXmVoN6tnSAY2JWhNRhWYJ8Cd844jrZU/DwLVoI4vBI6ceYbd8i42sYZ9uOgDH3S7vslIKOWV/ZrT2YBA==\",\"shasum\":\"6b3a253309aa1e53164646c6c644fcddd0d45c58\",\"tarball\":\"https://registry.npmjs.org/node-gettext/-/node-gettext-3.0.0.tgz\",\"fileCount\":10,\"unpackedSize\":94981,\"npm-signature\":\"-----BEGIN PGP SIGNATURE-----\\r\\nVersion: OpenPGP.js v3.0.4\\r\\nComment: https://openpgpjs.org\\r\\n\\r\\nwsFcBAEBCAAQBQJeg2xxCRA9TVsSAnZWagAAoHoP/R8+APxMsKHsC7YJVZnb\\nUFN2H2k11szBbUDHoLw0dFA9AcWd1DrQtXA8OuNGuDvkn8brSi0Hq4lPy8r9\\nuZ/IJFmIgiTk9dHxfS5EyYK9RxwKGab2hdvTqW1xBdivOkoSVA+ne8vjoWpG\\nEF7OPso5zlpZBuauiahxvYI4QFpCwxM83gUaFw7+kbO22hRCbp66shsOCo4e\\nuDQ2HPatFLS1JA241WfQy9jy1j3Ed/Gy9HRlasQNl9j9bc9y7cn2MsB5DbKo\\nPskFRUCxU5oL99It4YpO2+30OViOGgHAP5cLGhalemX6fd6tVuQtQNS1I6Lf\\nTxESjsG1X5CY56XsFKaMVuVyC8LIxUak5IEq69jOqtc7KHq66h2fzAUBTURf\\n4f5D4p72f5ofEH6GXw9+unrbUwgY1BJZYLzP+5y2Oi5HjIp/f2LD4TCotRja\\nJY9hGVSOJiLbcbw/21C2cMGwn31/G+O1iMwTvNMxrpZpiZ8nMMQdgpJUUUUH\\nIrLLehCWWm64yMcJh+ML1Mvfl7M5FpnDMIVbHJ1YFuyHTqPL3YnE4L4rf2pS\\ncILSA27qekCPb35/YDgGdvdkLfTIUcC+kITTci8dL2300d68tWMasQA9wn4y\\nK5pb6tvvf+6raDWgiy8bSWMcjbv2108OKhbdPCIGKqIzMfDY99Rwf7iVpahi\\n6xZu\\r\\n=utCd\\r\\n-----END PGP SIGNATURE-----\\r\\n\",\"signatures\":[{\"keyid\":\"SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA\",\"sig\":\"MEQCIDv4bJ7UlnlwJodFECOyLQSkqeYRvjY7NfqFakjuvpwAAiAHYOQusS4e/PQgZlgcDexQXkqcPjpkLNOHduY8C8LAHQ==\"}]},\"_npmUser\":{\"name\":\"alexander_wallin\",\"email\":\"office@alexanderwallin.com\"},\"directories\":{},\"_npmOperationalInternal\":{\"host\":\"s3://npm-registry-packages\",\"tmp\":\"tmp/node-gettext_3.0.0_1585671280790_0.9364114484226684\"},\"_hasShrinkwrap\":false}}}",
+    "contents": "{\"name\":\"node-gettext\",\"dist-tags\":{},\"versions\":{\"3.0.0\":{\"name\":\"node-gettext\",\"version\":\"3.0.0\",\"keywords\":[\"i18n\",\"l10n\",\"internationalization\",\"localization\",\"translation\",\"gettext\"],\"author\":{\"name\":\"Andris Reinman\"},\"_id\":\"node-gettext@3.0.0\",\"maintainers\":[{\"name\":\"alexander_wallin\",\"email\":\"office@alexanderwallin.com\"},{\"name\":\"andris\",\"email\":\"andris@kreata.ee\"}],\"homepage\":\"http://github.com/alexanderwallin/node-gettext\",\"bugs\":{\"url\":\"https://github.com/alexanderwallin/node-gettext/issues\"},\"dist\":{\"shasum\":\"6b3a253309aa1e53164646c6c644fcddd0d45c58\",\"tarball\":\"https://registry.npmjs.org/node-gettext/-/node-gettext-3.0.0.tgz\",\"fileCount\":10,\"integrity\":\"sha512-/VRYibXmVoN6tnSAY2JWhNRhWYJ8Cd844jrZU/DwLVoI4vBI6ceYbd8i42sYZ9uOgDH3S7vslIKOWV/ZrT2YBA==\",\"signatures\":[{\"sig\":\"MEQCIDv4bJ7UlnlwJodFECOyLQSkqeYRvjY7NfqFakjuvpwAAiAHYOQusS4e/PQgZlgcDexQXkqcPjpkLNOHduY8C8LAHQ==\",\"keyid\":\"SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA\"}],\"unpackedSize\":94981,\"npm-signature\":\"-----BEGIN PGP SIGNATURE-----\\r\\nVersion: OpenPGP.js v3.0.4\\r\\nComment: https://openpgpjs.org\\r\\n\\r\\nwsFcBAEBCAAQBQJeg2xxCRA9TVsSAnZWagAAoHoP/R8+APxMsKHsC7YJVZnb\\nUFN2H2k11szBbUDHoLw0dFA9AcWd1DrQtXA8OuNGuDvkn8brSi0Hq4lPy8r9\\nuZ/IJFmIgiTk9dHxfS5EyYK9RxwKGab2hdvTqW1xBdivOkoSVA+ne8vjoWpG\\nEF7OPso5zlpZBuauiahxvYI4QFpCwxM83gUaFw7+kbO22hRCbp66shsOCo4e\\nuDQ2HPatFLS1JA241WfQy9jy1j3Ed/Gy9HRlasQNl9j9bc9y7cn2MsB5DbKo\\nPskFRUCxU5oL99It4YpO2+30OViOGgHAP5cLGhalemX6fd6tVuQtQNS1I6Lf\\nTxESjsG1X5CY56XsFKaMVuVyC8LIxUak5IEq69jOqtc7KHq66h2fzAUBTURf\\n4f5D4p72f5ofEH6GXw9+unrbUwgY1BJZYLzP+5y2Oi5HjIp/f2LD4TCotRja\\nJY9hGVSOJiLbcbw/21C2cMGwn31/G+O1iMwTvNMxrpZpiZ8nMMQdgpJUUUUH\\nIrLLehCWWm64yMcJh+ML1Mvfl7M5FpnDMIVbHJ1YFuyHTqPL3YnE4L4rf2pS\\ncILSA27qekCPb35/YDgGdvdkLfTIUcC+kITTci8dL2300d68tWMasQA9wn4y\\nK5pb6tvvf+6raDWgiy8bSWMcjbv2108OKhbdPCIGKqIzMfDY99Rwf7iVpahi\\n6xZu\\r\\n=utCd\\r\\n-----END PGP SIGNATURE-----\\r\\n\"},\"main\":\"./lib/gettext.js\",\"engine\":{\"node\":\">=10\"},\"gitHead\":\"5bad107a348670d47e76f91ebafacf3bfbce4731\",\"scripts\":{\"docs\":\"jsdoc2md -f lib/gettext.js -t docs/README.template.md --partial docs/templates/*.hbs --param-list-format list > README.md\",\"test\":\"grunt\"},\"_npmUser\":{\"name\":\"alexander_wallin\",\"email\":\"office@alexanderwallin.com\"},\"licenses\":[{\"url\":\"http://github.com/alexanderwallin/node-gettext/blob/master/LICENSE\",\"type\":\"MIT\"}],\"repository\":{\"url\":\"git+ssh://git@github.com/alexanderwallin/node-gettext.git\",\"type\":\"git\"},\"_npmVersion\":\"6.11.3\",\"description\":\"A JavaScript implementation of gettext, a localization framework\",\"directories\":{},\"_nodeVersion\":\"12.11.1\",\"dependencies\":{\"lodash.get\":\"^4.4.2\"},\"_hasShrinkwrap\":false,\"devDependencies\":{\"chai\":\"^4.2.0\",\"grunt\":\"^1.0.1\",\"mocha\":\"^7.1.1\",\"sinon\":\"^9.0.1\",\"grunt-cli\":\"^1.2.0\",\"grunt-mocha-test\":\"^0.12.7\",\"jsdoc-to-markdown\":\"^5.0.3\",\"grunt-contrib-jshint\":\"^1.0.0\"},\"_npmOperationalInternal\":{\"tmp\":\"tmp/node-gettext_3.0.0_1585671280790_0.9364114484226684\",\"host\":\"s3://npm-registry-packages\"}}}}",
     "dest": "deno_dir/npm/registry.npmjs.org/node-gettext",
     "dest-filename": "registry.json"
   },
@@ -2829,7 +2899,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"name\":\"once\",\"dist-tags\":{},\"versions\":{\"1.4.0\":{\"name\":\"once\",\"version\":\"1.4.0\",\"description\":\"Run a function exactly one time\",\"main\":\"once.js\",\"directories\":{\"test\":\"test\"},\"dependencies\":{\"wrappy\":\"1\"},\"devDependencies\":{\"tap\":\"^7.0.1\"},\"scripts\":{\"test\":\"tap test/*.js\"},\"files\":[\"once.js\"],\"repository\":{\"type\":\"git\",\"url\":\"git://github.com/isaacs/once.git\"},\"keywords\":[\"once\",\"function\",\"one\",\"single\"],\"author\":{\"name\":\"Isaac Z. Schlueter\",\"email\":\"i@izs.me\",\"url\":\"http://blog.izs.me/\"},\"license\":\"ISC\",\"gitHead\":\"0e614d9f5a7e6f0305c625f6b581f6d80b33b8a6\",\"bugs\":{\"url\":\"https://github.com/isaacs/once/issues\"},\"homepage\":\"https://github.com/isaacs/once#readme\",\"_id\":\"once@1.4.0\",\"_shasum\":\"583b1aa775961d4b113ac17d9c50baef9dd76bd1\",\"_from\":\".\",\"_npmVersion\":\"3.10.7\",\"_nodeVersion\":\"6.5.0\",\"_npmUser\":{\"name\":\"isaacs\",\"email\":\"i@izs.me\"},\"dist\":{\"shasum\":\"583b1aa775961d4b113ac17d9c50baef9dd76bd1\",\"tarball\":\"https://registry.npmjs.org/once/-/once-1.4.0.tgz\",\"integrity\":\"sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==\",\"signatures\":[{\"keyid\":\"SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA\",\"sig\":\"MEQCIBoG/U/tJpr0WZlTEuYKTiY+IHcJ8q7ltkuQPJlL9q4ZAiB6nAD2IwFhsf3OOMThg/wNPiKveaMutTIScY9fya/n1g==\"}]},\"maintainers\":[{\"name\":\"isaacs\",\"email\":\"i@izs.me\"}],\"_npmOperationalInternal\":{\"host\":\"packages-12-west.internal.npmjs.com\",\"tmp\":\"tmp/once-1.4.0.tgz_1473196269128_0.537820661207661\"}}}}",
+    "contents": "{\"name\":\"once\",\"dist-tags\":{},\"versions\":{\"1.4.0\":{\"name\":\"once\",\"version\":\"1.4.0\",\"keywords\":[\"once\",\"function\",\"one\",\"single\"],\"author\":{\"url\":\"http://blog.izs.me/\",\"name\":\"Isaac Z. Schlueter\",\"email\":\"i@izs.me\"},\"license\":\"ISC\",\"_id\":\"once@1.4.0\",\"maintainers\":[{\"name\":\"isaacs\",\"email\":\"i@izs.me\"}],\"homepage\":\"https://github.com/isaacs/once#readme\",\"bugs\":{\"url\":\"https://github.com/isaacs/once/issues\"},\"dist\":{\"shasum\":\"583b1aa775961d4b113ac17d9c50baef9dd76bd1\",\"tarball\":\"https://registry.npmjs.org/once/-/once-1.4.0.tgz\",\"integrity\":\"sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==\",\"signatures\":[{\"sig\":\"MEQCIBoG/U/tJpr0WZlTEuYKTiY+IHcJ8q7ltkuQPJlL9q4ZAiB6nAD2IwFhsf3OOMThg/wNPiKveaMutTIScY9fya/n1g==\",\"keyid\":\"SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA\"}]},\"main\":\"once.js\",\"_from\":\".\",\"files\":[\"once.js\"],\"_shasum\":\"583b1aa775961d4b113ac17d9c50baef9dd76bd1\",\"gitHead\":\"0e614d9f5a7e6f0305c625f6b581f6d80b33b8a6\",\"scripts\":{\"test\":\"tap test/*.js\"},\"_npmUser\":{\"name\":\"isaacs\",\"email\":\"i@izs.me\"},\"repository\":{\"url\":\"git://github.com/isaacs/once.git\",\"type\":\"git\"},\"_npmVersion\":\"3.10.7\",\"description\":\"Run a function exactly one time\",\"directories\":{\"test\":\"test\"},\"_nodeVersion\":\"6.5.0\",\"dependencies\":{\"wrappy\":\"1\"},\"devDependencies\":{\"tap\":\"^7.0.1\"},\"_npmOperationalInternal\":{\"tmp\":\"tmp/once-1.4.0.tgz_1473196269128_0.537820661207661\",\"host\":\"packages-12-west.internal.npmjs.com\"}}}}",
     "dest": "deno_dir/npm/registry.npmjs.org/once",
     "dest-filename": "registry.json"
   },
@@ -2868,7 +2938,7 @@
   },
   {
     "type": "inline",
-    "contents": "{\"name\":\"p-locate\",\"dist-tags\":{},\"versions\":{\"5.0.0\":{\"name\":\"p-locate\",\"version\":\"5.0.0\",\"description\":\"Get the first fulfilled promise that satisfies the provided testing function\",\"license\":\"MIT\",\"repository\":{\"type\":\"git\",\"url\":\"git+https://github.com/sindresorhus/p-locate.git\"},\"funding\":\"https://github.com/sponsors/sindresorhus\",\"author\":{\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\",\"url\":\"https://sindresorhus.com\"},\"engines\":{\"node\":\">=10\"},\"scripts\":{\"test\":\"xo && ava && tsd\"},\"keywords\":[\"promise\",\"locate\",\"find\",\"finder\",\"search\",\"searcher\",\"test\",\"array\",\"collection\",\"iterable\",\"iterator\",\"race\",\"fulfilled\",\"fastest\",\"async\",\"await\",\"promises\",\"bluebird\"],\"dependencies\":{\"p-limit\":\"^3.0.2\"},\"devDependencies\":{\"ava\":\"^2.4.0\",\"delay\":\"^4.1.0\",\"in-range\":\"^2.0.0\",\"time-span\":\"^4.0.0\",\"tsd\":\"^0.13.1\",\"xo\":\"^0.32.1\"},\"gitHead\":\"a01d0e4d555c00e1551954751fd3cd4b238ce82f\",\"bugs\":{\"url\":\"https://github.com/sindresorhus/p-locate/issues\"},\"homepage\":\"https://github.com/sindresorhus/p-locate#readme\",\"_id\":\"p-locate@5.0.0\",\"_nodeVersion\":\"14.5.0\",\"_npmVersion\":\"6.14.7\",\"_npmUser\":{\"name\":\"sindresorhus\",\"email\":\"sindresorhus@gmail.com\"},\"dist\":{\"integrity\":\"sha512-LaNjtRWUBY++zB5nE/NwcaoMylSPk+S+ZHNB1TzdbMJMny6dynpAGt7X/tl/QYq3TIeE6nxHppbo2LGymrG5Pw==\",\"shasum\":\"83c8315c6785005e3bd021839411c9e110e6d834\",\"tarball\":\"https://registry.npmjs.org/p-locate/-/p-locate-5.0.0.tgz\",\"fileCount\":5,\"unpackedSize\":7240,\"npm-signature\":\"-----BEGIN PGP SIGNATURE-----\\r\\nVersion: OpenPGP.js v3.0.4\\r\\nComment: https://openpgpjs.org\\r\\n\\r\\nwsFcBAEBCAAQBQJfMYcLCRA9TVsSAnZWagAA0EMP/2sNFaf2lQPq5xga4ji+\\nqKq31XYNUP1iUqvoKu+6AH93vlKmtciKMb6Fb4pSK2QRaJZ8erwXEKF4XB4V\\nqJFOx2U8yNWVg+QoFxBDDVPcfX6tLufro+1n4BittC+pdEG0xfp+e56wV4CH\\ncgQjGcLj4cawNBf2cDB/ru9a5GOr7/d1EM2Z2Ya5FCH6nf0PQek2fGxpncsE\\nReT5HwG9Hyb2jEW6zCow6vSLLjUuq5MEVaRPOQL13bbovmsF5gaJ2uyibe3r\\nFOwF+Lj4i2PT5/GV1wP5PX39dOXvyTSPCohDDmwNKqtPKSUZ52XSixDEwND5\\ngn/eXr8e5I3kE8CX1kv2epqZjvOxxS2yoccAAiVkxI3liHy0JpwK4VSL6Fko\\nYSRu5tGg8x7TLsZkVukOdWEXV6ys0HyS1rmznUo0ewLP3M4kVNpEuWCNq7W0\\nNyNwCmTN4/a1rQsrXw49c9DYbbbqfXy723RTaWD+Z/AH/04wFL9pjRoV+hgl\\nw42Hb1ITUjzM2lfiNlLJt0Wzqm2a2WrrUXJ+GfkcsgUFg92Bzqk7K7UYW2SO\\nXcRnTaqh1pj2CCgEA61a8VM+UXVA+ZEjgYumaa5zJ6BP0x+h0oWNfB8XBlba\\nIYhYx87PUI549RKN+Si/F5vJfWUNOy/O7BEQ/Vhj494POXwMuBkxnuqfLrN2\\nDFey\\r\\n=zCT1\\r\\n-----END PGP SIGNATURE-----\\r\\n\",\"signatures\":[{\"keyid\":\"SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA\",\"sig\":\"MEYCIQCvJIKQ9VoMR/CjyqRtcqWxg6sG0X1hPp99ou4okTuu2gIhAJsckkgTLdQ8cUXqLj6G4dk5ww8O2Xvo7IaMtvDRgaVW\"}]},\"maintainers\":[{\"name\":\"sindresorhus\",\"email\":\"sindresorhus@gmail.com\"}],\"directories\":{},\"_npmOperationalInternal\":{\"host\":\"s3://npm-registry-packages\",\"tmp\":\"tmp/p-locate_5.0.0_1597081354525_0.2940768154089548\"},\"_hasShrinkwrap\":false}}}",
+    "contents": "{\"name\":\"p-locate\",\"dist-tags\":{},\"versions\":{\"5.0.0\":{\"name\":\"p-locate\",\"version\":\"5.0.0\",\"keywords\":[\"promise\",\"locate\",\"find\",\"finder\",\"search\",\"searcher\",\"test\",\"array\",\"collection\",\"iterable\",\"iterator\",\"race\",\"fulfilled\",\"fastest\",\"async\",\"await\",\"promises\",\"bluebird\"],\"author\":{\"url\":\"https://sindresorhus.com\",\"name\":\"Sindre Sorhus\",\"email\":\"sindresorhus@gmail.com\"},\"license\":\"MIT\",\"_id\":\"p-locate@5.0.0\",\"maintainers\":[{\"name\":\"sindresorhus\",\"email\":\"sindresorhus@gmail.com\"}],\"homepage\":\"https://github.com/sindresorhus/p-locate#readme\",\"bugs\":{\"url\":\"https://github.com/sindresorhus/p-locate/issues\"},\"dist\":{\"shasum\":\"83c8315c6785005e3bd021839411c9e110e6d834\",\"tarball\":\"https://registry.npmjs.org/p-locate/-/p-locate-5.0.0.tgz\",\"fileCount\":5,\"integrity\":\"sha512-LaNjtRWUBY++zB5nE/NwcaoMylSPk+S+ZHNB1TzdbMJMny6dynpAGt7X/tl/QYq3TIeE6nxHppbo2LGymrG5Pw==\",\"signatures\":[{\"sig\":\"MEYCIQCvJIKQ9VoMR/CjyqRtcqWxg6sG0X1hPp99ou4okTuu2gIhAJsckkgTLdQ8cUXqLj6G4dk5ww8O2Xvo7IaMtvDRgaVW\",\"keyid\":\"SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA\"}],\"unpackedSize\":7240,\"npm-signature\":\"-----BEGIN PGP SIGNATURE-----\\r\\nVersion: OpenPGP.js v3.0.4\\r\\nComment: https://openpgpjs.org\\r\\n\\r\\nwsFcBAEBCAAQBQJfMYcLCRA9TVsSAnZWagAA0EMP/2sNFaf2lQPq5xga4ji+\\nqKq31XYNUP1iUqvoKu+6AH93vlKmtciKMb6Fb4pSK2QRaJZ8erwXEKF4XB4V\\nqJFOx2U8yNWVg+QoFxBDDVPcfX6tLufro+1n4BittC+pdEG0xfp+e56wV4CH\\ncgQjGcLj4cawNBf2cDB/ru9a5GOr7/d1EM2Z2Ya5FCH6nf0PQek2fGxpncsE\\nReT5HwG9Hyb2jEW6zCow6vSLLjUuq5MEVaRPOQL13bbovmsF5gaJ2uyibe3r\\nFOwF+Lj4i2PT5/GV1wP5PX39dOXvyTSPCohDDmwNKqtPKSUZ52XSixDEwND5\\ngn/eXr8e5I3kE8CX1kv2epqZjvOxxS2yoccAAiVkxI3liHy0JpwK4VSL6Fko\\nYSRu5tGg8x7TLsZkVukOdWEXV6ys0HyS1rmznUo0ewLP3M4kVNpEuWCNq7W0\\nNyNwCmTN4/a1rQsrXw49c9DYbbbqfXy723RTaWD+Z/AH/04wFL9pjRoV+hgl\\nw42Hb1ITUjzM2lfiNlLJt0Wzqm2a2WrrUXJ+GfkcsgUFg92Bzqk7K7UYW2SO\\nXcRnTaqh1pj2CCgEA61a8VM+UXVA+ZEjgYumaa5zJ6BP0x+h0oWNfB8XBlba\\nIYhYx87PUI549RKN+Si/F5vJfWUNOy/O7BEQ/Vhj494POXwMuBkxnuqfLrN2\\nDFey\\r\\n=zCT1\\r\\n-----END PGP SIGNATURE-----\\r\\n\"},\"engines\":{\"node\":\">=10\"},\"funding\":\"https://github.com/sponsors/sindresorhus\",\"gitHead\":\"a01d0e4d555c00e1551954751fd3cd4b238ce82f\",\"scripts\":{\"test\":\"xo && ava && tsd\"},\"_npmUser\":{\"name\":\"sindresorhus\",\"email\":\"sindresorhus@gmail.com\"},\"repository\":{\"url\":\"git+https://github.com/sindresorhus/p-locate.git\",\"type\":\"git\"},\"_npmVersion\":\"6.14.7\",\"description\":\"Get the first fulfilled promise that satisfies the provided testing function\",\"directories\":{},\"_nodeVersion\":\"14.5.0\",\"dependencies\":{\"p-limit\":\"^3.0.2\"},\"_hasShrinkwrap\":false,\"devDependencies\":{\"xo\":\"^0.32.1\",\"ava\":\"^2.4.0\",\"tsd\":\"^0.13.1\",\"delay\":\"^4.1.0\",\"in-range\":\"^2.0.0\",\"time-span\":\"^4.0.0\"},\"_npmOperationalInternal\":{\"tmp\":\"tmp/p-locate_5.0.0_1597081354525_0.2940768154089548\",\"host\":\"s3://npm-registry-packages\"}}}}",
     "dest": "deno_dir/npm/registry.npmjs.org/p-locate",
     "dest-filename": "registry.json"
   },

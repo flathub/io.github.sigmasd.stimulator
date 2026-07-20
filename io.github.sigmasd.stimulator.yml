@@ -19,7 +19,7 @@ finish-args:
   - --talk-name=org.freedesktop.ScreenSaver
 
 modules:
-  - shared-modules/libappindicator/libappindicator-gtk3-introspection-12.10.json
+  - shared-modules/libayatana-appindicator/libayatana-appindicator-gtk3.json
 
   - name: stimulator
     buildsystem: simple
@@ -47,20 +47,20 @@ modules:
     sources:
       # deno
       - type: archive
-        url: https://github.com/denoland/deno/releases/download/v2.5.3/deno-x86_64-unknown-linux-gnu.zip
-        sha256: 421add1fbc9616bf0a6dee0e330804122043ab2bf8cd884fa9ab9afddf2aea67
+        url: https://github.com/denoland/deno/releases/download/v2.9.3/deno-x86_64-unknown-linux-gnu.zip
+        sha256: 8101865641cbede56f08ad19c0a67a87df84bce127fee0d3e3e1f7467717ffa6
         only-arches:
           - x86_64
       - type: archive
-        url: https://github.com/denoland/deno/releases/download/v2.5.3/deno-aarch64-unknown-linux-gnu.zip
-        sha256: 78ad2cba6baef94af3e9140e952377bbe286f191b071a0f634bf53c2f618b6f1
+        url: https://github.com/denoland/deno/releases/download/v2.9.3/deno-aarch64-unknown-linux-gnu.zip
+        sha256: 753937db98a4b56cbbbd26e8f00eb4b789191a229afec93f74bcfa4e79bc2c8b
         only-arches:
           - aarch64
 
       # stimulator
       - type: archive
-        url: https://github.com/sigmaSd/stimulator/archive/refs/tags/1.19.0.tar.gz
-        sha256: 122a15f6519f066ff96ca6417a4bcb55123619bd995340f3956de30e325e0b39
+        url: https://github.com/sigmaSd/stimulator/archive/refs/tags/2.0.1.tar.gz
+        sha256: 57f73f6e1eeb63df149a149a46dca98753342c5ad8a9a642bc33dfac5c40bc50
 
       - type: script
         dest-filename: stimulator
